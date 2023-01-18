@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Искусство счастливой жизни</title>
+  <link rel="stylesheet" href="./css/default.css">
+  <link rel="stylesheet" href="./css/main-style.css">
+  <link rel="stylesheet" href="./css/pravki_main_test_form.css">
+
+  <link rel="stylesheet" href="./css/animate.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/swiper-bundle.min.css"/>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+<body>
+<div class="page__overlay page__overlay--show"></div>
+<div style="display:none">
+  <include src="source/img/sprite.svg"></include>
+</div>
+<main>
+  Контент
+  <div id="black-friday" class="black-friday modal modal--opened">
+    <p class="black-friday__small-title">Черная пятница</p>
+    <h2 class="black-friday__title">Ипотечные подарки!</h2>
+    <p class="black-friday__text">Только с 9 по 11 ноября подайте заявку и получите подарок*</p>
+    <form class="form">
+      <div class="form__fieldwrap form__fieldwrap--name">
+        <input type="text" id="user-name" placeholder="Имя" required>
+        <label class="visually-hidden" for="user-name">Имя</label>
+      </div>
+      <div class="form__fieldwrap form__fieldwrap--phone">
+        <input type="tel" id="user-phone" placeholder="Телефон" required>
+        <label class="visually-hidden" for="user-phone">Телефон</label>
+      </div>
+      <button class="btn btn--yellow form__submit-btn">
+        <svg class="icon" width="16px" height="16px">
+          <use class="icon__symbol" xlink:href="#icon-send"></use>
+        </svg>
+        оставить заявку
+      </button>
+      <div class="form__img"></div>
+    </form>
+    <p class="form__note-text">
+      Нажимая кнопку, я даю свое согласие на обработку моих персональных данных
+    </p>
+    <button class="modal__close-btn" type="button" name="button" title="Закрыть">Закрыть</button>
+  </div>
+</main>
+<script src="js/wow.min.js"></script>
+<script src="js/swiper-bundle.min.js"></script>
+<script src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+.house-benefits {
+  .text-normal();
+
+  & .page__subtitle {
+    & span {
+      color: @blue;
+    }
+  }
+
+  &__list {
+    .list();
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25em;
+
+    @media (min-width: 1025px) {
+      font-size: 24px;
+    }
+  }
+
+  &__item {
+    position: relative;
+    .mp();
+    list-style: none;
+    color: @gray;
+    padding-left: 2.67em;
+    width: 100%;
+    flex-grow: 1;
+    min-height: 1.83em;
+
+    @media (min-width: 768px) {
+      width: 45%;
+    }
+
+    @media (min-width: 1440px) {
+      width: 20%;
+    }
+
+    &--storage-room {
+      &::before {
+        background-image: url("../img/house-benefits/storage-room.png");
+      }
+    }
+
+    &--playgrounds {
+      &::before {
+        background-image: url("../img/house-benefits/playgrounds.png");
+      }
+    }
+
+    &--spacious-yard {
+      &::before {
+        background-image: url("../img/house-benefits/spacious-yard.png");
+      }
+    }
+
+    &--heating {
+      &::before {
+        background-image: url("../img/house-benefits/heating.png");
+      }
+    }
+  }
+
+  &__item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1.83em;
+    height: 1.83em;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+}

@@ -1,0 +1,183 @@
+.decision {
+  .text-normal();
+
+  & .page__wrap {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+      align-items: flex-end;
+    }
+
+    @media (min-width: 1200px) {
+      gap: 50px;
+    }
+  }
+
+  &__img-wrap {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 531 / 452;
+
+    @media (min-width: 768px) {
+      position: absolute;
+      top: 0;
+      left: -20%;
+      width: 75%;
+      height: 100%;
+      transform: translateX(-25%);
+    }
+
+    @media (min-width: 1200px) {
+      position: relative;
+      top: unset;
+      left: unset;
+      width: 40%;
+      height: auto;
+      transform: none;
+      flex-grow: 1;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%;
+      height: 96.79%;
+      background: url("../img/poz1/decision-bg.svg") no-repeat center;
+      background-size: contain;
+    }
+
+    &::after {
+      @media (min-width: 768px) {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 38%;
+        width: 85vw;
+        max-width: 1140px;
+
+        height: 2px;
+        background-color: #D9D9D9;
+        z-index: 5;
+      }
+    }
+  }
+
+  &__img {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 62%;
+    height: 100%;
+    object-position: center;
+    object-fit: contain;
+
+
+  }
+
+  &__content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    background-color: #F6F6F6FF;
+
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 25%;
+      transform: translateY(-100%);
+      background: linear-gradient(0deg, rgba(246,246,246,1) 0%, rgba(246,246,246,1) 45%, rgba(246,246,246,0) 100%);
+
+      @media (min-width: 768px) {
+        left: 0;
+        height: calc(100% - 2px);
+        width: 25%;
+        transform: translateY(3px) translateX(-100%);
+        background: linear-gradient(270deg, rgba(246,246,246,1) 0%, rgba(246,246,246,1) 45%, rgba(246,246,246,0) 100%);
+      }
+
+      @media (min-width: 1200px) {
+        display: none;
+      }
+
+    }
+
+    @media (min-width: 768px) {
+      margin-left: auto;
+      padding-bottom: 1em;
+      margin-bottom: 2px;
+      width: 65%;
+    }
+
+    @media (min-width: 1200px) {
+      padding-bottom: 2em;
+      width: 45%;
+      flex-grow: 1;
+    }
+  }
+
+  &__text-block {
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 40px;
+      height: 60px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+
+      @media (min-width: 1200px) {
+        left: -80px;
+      }
+    }
+
+    &--question {
+      &::before {
+        background-image: url("../img/poz1/question.svg");
+      }
+
+    }
+
+    &--answer {
+      &::before {
+        background-image: url("../img/poz1/answer.svg");
+      }
+    }
+
+    & h3 {
+      .mp();
+      font-size: 15px;
+      margin-bottom: 0.8em;
+      min-height: 60px;
+      padding-left: 50px;
+
+      @media (min-width: 1025px) {
+        font-size: 24px;
+      }
+
+      @media (min-width: 1200px) {
+        padding-left: 0;
+      }
+    }
+
+    & p {
+      .mp();
+      .text-normal();
+    }
+  }
+}

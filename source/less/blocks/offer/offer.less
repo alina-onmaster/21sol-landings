@@ -1,0 +1,187 @@
+.offer {
+  .text-normal();
+
+  & .page__wrap {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+
+    @media (min-width: 1025px) {
+      flex-direction: row;
+      padding-bottom: 60px;
+    }
+  }
+
+  &__img-block {
+    aspect-ratio: 3 / 2;
+    width: 100vw;
+
+    @media (min-width: 1025px) {
+      aspect-ratio: unset;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      width: 70%;
+    }
+
+    @media (min-width: 1200px) {
+      border-radius: 2.5em;
+    }
+
+    & img {
+      width: 100%;
+      height: 100%;
+      object-position: center;
+      object-fit: cover;
+
+      .border-radius();
+    }
+  }
+
+  &__text-block {
+    position: relative;
+    padding: 4em 2em 5em;
+    border-radius: 30px;
+    margin-top: -5em;
+    background-color: @light;
+    .border-radius();
+    width: 100%;
+    max-width: 655px;
+
+    @media (min-width: 768px) {
+      padding: 4em 2.5em 5em;
+    }
+
+    @media (min-width: 1025px) {
+      width: 65%;
+      margin-top: unset;
+    }
+
+    @media (min-width: 1440px) {
+      width: 50%;
+      margin-top: unset;
+    }
+  }
+
+  & .page__subtitle {
+    width: 100%;
+    & span {
+      color: @red;
+      word-break: break-all;
+    }
+  }
+
+  &__list {
+    .list();
+    display: flex;
+    flex-direction: column;
+    gap: 1.25em;
+    font-size: 15px;
+
+    @media (min-width: 1025px) {
+      font-size: 24px;
+    }
+  }
+
+  &__item {
+    position: relative;
+    .mp();
+    list-style: none;
+    color: @gray;
+    padding-left: 3.95em;
+    min-height: 2.7em;
+
+    &--sale {
+      &::before {
+        background-image: url("../img/offer/sale.svg");
+        background-size: 1.37em;
+      }
+    }
+
+    &--mortgage {
+      &::before {
+        background-image: url("../img/offer/mortgage.svg");
+        background-size: 1.37em;
+      }
+    }
+
+    &--installment-plan {
+      &::before {
+        background-image: url("../img/offer/installment-plan.svg");
+        background-size: 1.37em;
+      }
+    }
+
+    &--tradein {
+      &::before {
+        background-image: url("../img/offer/tradein.svg");
+        background-size: 1.75em;
+      }
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 2.7em;
+      height: 2.7em;
+      border: 1px solid @red;
+      border-radius: 50%;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      @media (min-width: 1025px) {
+        border: 2px solid @red;
+      }
+    }
+  }
+
+  &__item span {
+    font-weight: 700;
+  }
+
+  &__item-link-more {
+    position: relative;
+    display: inline-flex;
+    color: @red;
+    font-size: 0.83em;
+    text-decoration: none;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translateX(120%) translateY(-45%);
+      width: 1.2em;
+      height: 1.2em;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-image: url("../img/offer/arrow-link.svg");
+      transition: @transition;
+    }
+
+
+    &:hover,
+    &:focus {
+      color: @red;
+
+      &::after {
+        transform: translateX(130%) translateY(-45%);
+      }
+    }
+  }
+
+  &__footnote {
+    .container();
+    .mp();
+    text-align: center;
+    color: @gray;
+    margin: 1.6em auto 0;
+  }
+}

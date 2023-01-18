@@ -1,0 +1,167 @@
+.family-mortgage {
+  .text-normal();
+
+  & .page__wrap {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+
+    @media (min-width: 1025px) {
+      flex-direction: row;
+      padding-bottom: 60px;
+    }
+  }
+
+  &__img-block {
+    aspect-ratio: 3 / 2;
+    width: 100vw;
+
+    @media (min-width: 1025px) {
+      aspect-ratio: unset;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      width: 70%;
+    }
+
+    @media (min-width: 1200px) {
+      border-radius: 2.5em;
+    }
+
+    & img {
+      width: 100%;
+      height: 100%;
+      object-position: center;
+      object-fit: cover;
+
+      .border-radius();
+    }
+  }
+
+  &__text-block {
+    position: relative;
+    padding: 4em 2em 5em;
+    border-radius: 30px;
+    margin-top: -5em;
+    background-color: @light;
+    .border-radius();
+    width: 100%;
+    max-width: 655px;
+
+    @media (min-width: 768px) {
+      padding: 4em 2.5em 5em;
+    }
+
+    @media (min-width: 1025px) {
+      width: 65%;
+      margin-top: unset;
+    }
+
+    @media (min-width: 1440px) {
+      width: 50%;
+      margin-top: unset;
+    }
+  }
+
+  & .page__text-block b {
+    display: block;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0.66em;
+
+    @media (min-width: 1025px) {
+      font-size: 18px;
+    }
+  }
+
+  & .page__subtitle {
+    width: 100%;
+
+    & span {
+      color: @red;
+      word-break: break-all;
+    }
+
+    & a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3em;
+      .text-normal();
+      font-size: 0.41em;
+      color: @gray;
+      font-weight: normal;
+      padding: 0.5em 1em;
+      background-color: @yellow;
+      border-radius: 1em;
+      transition: @transition;
+
+      & .icon {
+        width: 1.2em;
+        height: 1.2em;
+        transition: @transition;
+
+        & use.icon__symbol {
+          transition: @transition;
+          fill: @gray;
+        }
+      }
+
+      &:hover,
+      &:focus {
+        color: @light;
+        background-color: @red;
+
+        & .icon {
+          & use.icon__symbol {
+            fill: @light;
+          }
+        }
+      }
+
+    }
+  }
+
+  &__text {
+    font-size: 15px;
+    .mp();
+    margin-bottom: 1.08em;
+
+    @media (min-width: 1025px) {
+      font-size: 24px;
+    }
+
+    & span {
+      font-weight: bold;
+      text-decoration: underline dotted @red;
+    }
+  }
+
+  & .logo-img {
+    .text-normal();
+    width: 85px;
+    height: 40px;
+    margin-bottom: 2.15em;
+  }
+
+  &__footnote {
+    .text-normal();
+    .mp();
+    color: @gray;
+
+    & a {
+      color: inherit;
+      font-weight: bold;
+      text-decoration: none;
+      transition: @transition;
+
+      &:hover,
+      &:focus {
+        color: @red;
+      }
+    }
+  }
+}

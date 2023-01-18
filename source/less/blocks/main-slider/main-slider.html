@@ -1,0 +1,77 @@
+<section class="main-slider">
+    <ul class="main-slider__list">
+      <li class="main-slider__item">
+        <div class="container">
+          <div class="main-slider__item-text">
+            <div class="small_title_action">Спецпредложение <span class="lastmounth"></span></div>
+            <div class="big_title_action big_title_action_many" style="margin-top: 30px;" ><span style="color: #e5272e">Сохрани</span><br>свои деньги —<br>купи квартиру <span style="color: #e5272e">выгодно</span>!</div>
+            <div class="button_action"><a class="slider_button_action" href="/two-room-apartments/">Подробнее</a></div>
+          </div>
+          <div class="main-slider__item-img">
+            <div class="img-wrap">
+              <picture>
+                <source type="image/webp" media="(min-width: 768px)" srcset="
+              img/main-slider/slide_discount-and-installment_desktop-1047.webp 1x,
+              img/main-slider/slide_discount-and-installment_desktop-1047@2x.webp 2x,
+              img/main-slider/slide_discount-and-installment_desktop-1047@3x.webp 3x">
+                <source type="image/webp" srcset="
+              img/main-slider/slide_discount-and-installment_mob-753.webp 1x,
+              img/main-slider/slide_discount-and-installment_mob-753@2x.webp 2x,
+              img/main-slider/slide_discount-and-installment_mob-753@3x.webp 3x">
+                <source media="(min-width: 768px)" srcset="
+              img/main-slider/slide_discount-and-installment_desktop-1047.jpg 1x,
+              img/main-slider/slide_discount-and-installment_desktop-1047@2x.jpg 2x,
+              img/main-slider/slide_discount-and-installment_desktop-1047@3x.jpg 3x">
+                <img class="img" src="
+              img/main-slider/slide_discount-and-installment_mob-753.jpg 1x" srcset="
+              img/main-slider/slide_discount-and-installment_mob-753@2x.jpg 2x,
+              img/main-slider/slide_discount-and-installment_mob-753@3x.jpg 3x"
+                     alt="">
+              </picture>
+            </div>
+          </div>
+
+        </div>
+      </li>
+    </ul>
+  <div class="container">
+    <div class="main_slider_nav_block">
+      <div class="main_slider_nav_items">
+        <div class="main_slider_nav">
+          <div class="main_slider_prev" id="main_slider_prev"></div>
+          <div id="counter">1/4</div>
+          <div class="main_slider_next" id="main_slider_next"></div>
+        </div>
+        <div class="button_action_call"><a data-b24-crm-button-widget="callback" class="slider_button_callback" href="javascript:void(0)" onclick="b24Call();"><span>Заказать звонок</span></a></div>
+      </div>
+    </div>
+  </div>
+
+</section>
+<script type="text/javascript">
+  var date = new Date();
+  var lastDayDate = new Date(date.getFullYear(), date.getMonth() + 1, 0);
+  var lastDay = lastDayDate.toLocaleString('ru', {day: 'numeric'});
+  var monthеs = ['ЯНВАРЯ','ФЕВРАЛЯ','МАРТА', 'АПРЕЛЯ','МАЯ','ИЮНЯ','ИЮЛЯ', 'АВГУСТА', 'СЕНТЯБРЯ', 'ОКТЯБРЯ', 'НОЯБРЯ', 'ДЕКАБРЯ'];
+
+  var resultDate = lastDay+' '+monthеs[date.getMonth()]+' '+date.getFullYear();
+  var resultDay = lastDay+' '+monthеs[date.getMonth()];
+  var resultMounth = monthеs[date.getMonth()];
+
+  var elDay =document.getElementsByClassName("lastday");  // Find the elements
+  var elMounth =document.getElementsByClassName("lastmounth");
+  var elDate =document.getElementsByClassName("lastdate");
+
+  for(var i = 0; i < elDay.length; i++){
+    elDay[i].innerText=resultDay;
+  }
+
+  for(var i = 0; i < elMounth.length; i++){
+    elMounth[i].innerText=resultMounth;
+  }
+
+  for(var i = 0; i < elDate.length; i++){
+    elDate[i].innerText=resultDate;
+  }
+
+</script>

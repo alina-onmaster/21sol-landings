@@ -1,0 +1,107 @@
+.area-advantages {
+  .text-normal();
+
+  & .page__subtitle {
+    & span {
+      color: @red;
+    }
+  }
+
+  &__list {
+    .list();
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25em;
+
+    @media (min-width: 1025px) {
+      font-size: 24px;
+    }
+  }
+
+  &__item {
+    position: relative;
+    .mp();
+    list-style: none;
+    color: black;
+    padding-left: 2.67em;
+    width: 100%;
+    flex-grow: 1;
+    min-height: 1.83em;
+
+    @media (min-width: 768px) {
+      width: 45%;
+    }
+
+    @media (min-width: 1440px) {
+      width: 30%;
+    }
+
+    &--1 {
+      &::before {
+        background-image: url("../img/area-advantages/area-advantage1.png");
+      }
+    }
+
+    &--2 {
+      &::before {
+        background-image: url("../img/area-advantages/area-advantage2.png");
+      }
+    }
+
+    &--3 {
+      &::before {
+        background-image: url("../img/area-advantages/area-advantage3.png");
+      }
+    }
+
+    &--4 {
+      &::before {
+        background-image: url("../img/area-advantages/area-advantage4.png");
+      }
+    }
+
+    &--5 {
+      &::before {
+        background-image: url("../img/area-advantages/area-advantage5.png");
+      }
+    }
+
+    &--6 {
+      &::before {
+        background-image: url("../img/area-advantages/area-advantage6.png");
+      }
+    }
+
+    &--7 {
+      &::before {
+        background-image: url("../img/area-advantages/area-advantage7.png");
+      }
+    }
+
+    &--8 {
+      &::before {
+        background-image: url("../img/area-advantages/area-advantage8.png");
+      }
+    }
+
+    &--9 {
+      &::before {
+        background-image: url("../img/area-advantages/area-advantage9.png");
+      }
+    }
+  }
+
+  &__item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1.83em;
+    height: 1.83em;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}

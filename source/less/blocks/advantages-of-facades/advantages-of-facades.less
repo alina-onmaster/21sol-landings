@@ -1,0 +1,90 @@
+.advantages-of-facades {
+  .text-normal();
+
+  & .page__subtitle {
+    & span {
+      color: @red;
+    }
+  }
+
+  &__list {
+    .list();
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+
+    @media (min-width: 1025px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  }
+
+  &__item {
+    position: relative;
+    .mp();
+    list-style: none;
+    padding-left: 71px;
+    width: 100%;
+    flex-grow: 1;
+    color: black;
+
+    @media (min-width: 1025px) {
+      width: 40%;
+    }
+
+    @media (min-width: 1400px) {
+      width: 25%;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 51px;
+      height: 44px;
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-size: contain;
+
+    }
+
+    &--1 {
+      &::before {
+        background-image: url("../img/advantages-of-facades/advantages-of-facades1.png");
+      }
+    }
+
+    &--2 {
+      &::before {
+        background-image: url("../img/advantages-of-facades/advantages-of-facades2.png");
+      }
+
+    }
+
+    &--3 {
+      &::before {
+        background-image: url("../img/advantages-of-facades/advantages-of-facades3.png");
+      }
+    }
+  }
+
+  &__item h3 {
+    .mp();
+    font-size: 15px;
+    margin-bottom: 0.8em;
+
+    @media (min-width: 1025px) {
+      font-size: 24px;
+    }
+  }
+
+  &__item p {
+    .mp();
+    .text-normal();
+  }
+
+
+}

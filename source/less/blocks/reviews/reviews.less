@@ -1,0 +1,116 @@
+.reviews {
+  .text-normal();
+
+  & .page__section {
+    margin-bottom: 0;
+  }
+
+  & .page__subtitle {
+    & span {
+      color: @red;
+    }
+  }
+
+  &__list {
+    .list();
+    font-size: 15px;
+    color: black;
+    display: grid;
+  }
+
+  &__item {
+    .text-normal();
+    .mp();
+    list-style: none;
+    padding: 1.5em;
+    background-color: @light;
+    border-radius: 0.5em;
+  }
+
+  & .review {
+    .text-normal();
+    display: grid;
+    grid-template-columns: 60px auto;
+    grid-template-areas:
+    "text text"
+    "photo name"
+    "photo grade"
+    "photo .";
+    grid-column-gap: 0.9em;
+    grid-row-gap: 1em;
+
+    @media (min-width: 1025px) {
+      grid-template-columns: 80px auto;
+    }
+
+    &__text {
+      min-height: 9em;
+      grid-area: text;
+
+      @media (min-width: 1025px) {
+        min-height: 12em;
+      }
+      p {
+        .mp();
+      }
+    }
+
+    &__author-photo {
+      grid-area: photo;
+      & img {
+        width: 4em;
+        height: 4em;
+        object-position: center;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+
+    }
+
+    &__author-name {
+      grid-area: name;
+      font-weight: bold;
+    }
+
+    &__grade-list {
+      grid-area: grade;
+      .list();
+      display: flex;
+      gap: 2px;
+
+      & li {
+        .mp();
+        list-style: none;
+        width: 16px;
+        height: 16px;
+        background: url("../img/reviews/star.svg") no-repeat center;
+        background-size: contain;
+      }
+    }
+  }
+
+  & .swiper-pagination {
+    position: static;
+  }
+
+  & .swiper-horizontal>.swiper-pagination-bullets,
+  & .swiper-pagination-bullets.swiper-pagination-horizontal,
+  & .swiper-pagination-custom, .swiper-pagination-fraction {
+    margin-top: 10px;
+    bottom: unset;
+  }
+
+  & .swiper-pagination-bullet-active {
+    background: @blue;
+  }
+
+  &__link-request {
+    display: flex;
+    width: 175px;
+    margin: 2em auto 0;
+
+    @media (min-width: 1025px) {
+      width: 305px;
+    }
+  }
+}

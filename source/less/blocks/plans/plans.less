@@ -1,0 +1,258 @@
+.two-room-plans {
+  .text-normal();
+
+  & .page__wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+
+    @media (min-width: 1025px) {
+      grid-template-columns: 1fr 1fr;
+      column-gap: 30px;
+      row-gap: 90px;
+    }
+  }
+
+  &__title-wrap {
+    position: relative;
+    min-height: 300px;
+    padding-bottom: 8em;
+
+    @media (min-width: 1440px) {
+      padding-bottom: 20em;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      width: 100vw;
+      max-width: 400px;
+      transform: translateX(-50%);
+      aspect-ratio: 3 / 2;
+      background:
+        linear-gradient(270deg, #F6F6F6 12.99%, rgba(246, 246, 246, 0) 33.91%),
+        linear-gradient(180deg, rgba(246, 246, 246, 0) 69.27%, #F6F6F6 100%),
+        linear-gradient(90deg, #F6F6F6 5.17%, rgba(246, 246, 246, 0) 21.27%),
+        linear-gradient(180deg, #F6F6F6 0%, rgba(246, 246, 246, 0) 30.21%),
+        url("../img/plans/bg.jpg");
+      background-size: contain;
+
+      @media (min-width: 1025px) {
+        width: 100%;
+        max-width: unset;
+      }
+    }
+  }
+
+  & .page__subtitle {
+    position: relative;
+    z-index: 5;
+    & span {
+      color: @red;
+    }
+  }
+
+  &__adv-list {
+    .list();
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2em;
+
+    @media (min-width: 1440px) {
+      grid-template-columns: 1fr 1fr;
+      column-gap: 1em;
+      row-gap: 2.5em;
+    }
+  }
+
+  &__adv-list > li {
+    .mp();
+    padding-left: 20px;
+    list-style: none;
+  }
+
+  &__adv-list > li h3 {
+    position: relative;
+    .mp();
+    font-size: 15px;
+    margin-bottom: 0.8em;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -20px;
+      width: 4px;
+      height: 100%;
+      background-color: @red;
+    }
+
+    @media (min-width: 1025px) {
+      font-size: 24px;
+    }
+  }
+
+  &__adv-list > li p {
+    .mp();
+    .text-normal();
+  }
+
+  &__list {
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    width: 100%;
+    .list();
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2em;
+    counter-reset: numbers;
+
+    @media (min-width: 768px) {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  &__item {
+    position: relative;
+    width: 100%;
+    .mp();
+    list-style: none;
+
+    &::before {
+      counter-increment: numbers;
+      content: "0"counter(numbers);
+      position: absolute;
+      top: 0;
+      left: 53%;
+      transform: translateX(-50%);
+      font-weight: 700;
+      font-size: 6em;
+      opacity: 0.1;
+      line-height: 1.1;
+    }
+  }
+}
+
+.two-room-plan {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5em;
+
+  &__img-wrap {
+    background-color: @light;
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    border-radius: 1em;
+    overflow: hidden;
+    z-index: 5;
+  }
+
+  &__img-link {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    padding: 1em;
+    transition: @transition;
+
+    &:hover,
+    &:focus {
+      & .icon {
+        & use.icon__symbol {
+          stroke: @blue;
+        }
+      }
+
+      & .two-room-plan__img {
+        scale: 1.1;
+      }
+    }
+
+    & .icon {
+      position: absolute;
+      bottom: 1em;
+      right: 1em;
+      width: 30px;
+      height: 30px;
+
+      & use.icon__symbol {
+        stroke: @gray;
+      }
+    }
+  }
+
+  &__img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: contain;
+    transition: @transition;
+  }
+
+  &__info-wrap {
+
+    @media (min-width: 425px) {
+      padding-top: 2.75em;
+    }
+
+    @media (min-width: 768px) {
+      padding-top: 0;
+    }
+
+    @media (min-width: 1200px) {
+      padding-top: 2.75em;
+    }
+  }
+
+  &__title {
+    color: #000000;
+    .mp();
+    font-size: 15px;
+    margin-bottom: 1.42em;
+    text-transform: uppercase;
+
+
+    @media (min-width: 1025px) {
+      font-size: 24px;
+    }
+  }
+
+  &__square {
+    position: relative;
+    .mp();
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 1.25em;
+    padding-left: 44px;
+
+    @media (min-width: 1025px) {
+      font-size: 24px;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      width: 24px;
+      height: 24px;
+      background: url("../img/plans/square.svg") no-repeat center;
+      background-size: contain;
+    }
+
+    &::after {
+      content: " м2";
+    }
+  }
+
+  &__price-request-link {
+    @media (min-width: 1025px) {
+      font-size: 18px;
+    }
+  }
+}
