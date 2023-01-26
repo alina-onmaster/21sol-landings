@@ -110,7 +110,7 @@
     gap: 2em;
     counter-reset: numbers;
 
-    @media (min-width: 768px) {
+    @media (min-width: 992px) {
       grid-template-columns: 1fr 1fr;
     }
   }
@@ -248,6 +248,14 @@
     &::after {
       content: " м2";
     }
+  }
+
+  &__accent {
+    font-weight: bold;
+    color: #E55025;
+    padding-bottom: 0.8em;
+    display: block;
+    font-size: 16px;
   }
 
   &__price-request-link {
