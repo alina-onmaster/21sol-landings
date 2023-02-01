@@ -686,7 +686,6 @@ body {
     margin: 0 auto;
     padding-left: 5vw;
     padding-right: 5vw;
-    padding-bottom: 60px;
   }
 }
 @media (min-width: 1025px) and (min-width: 1440px) {
@@ -758,13 +757,7 @@ body {
     width: 65%;
     margin-top: unset;
     border-radius: 30px;
-    padding: 50px 50px 40px 50px;
-  }
-}
-@media (min-width: 1440px) {
-  .accent-text__text-block {
-    width: 50%;
-    margin-top: unset;
+    padding: 50px;
   }
 }
 .accent-text__text-block p {
