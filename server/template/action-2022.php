@@ -201,7 +201,7 @@
         </div>
       </section>
 
-    
+
 
       <section class="sect_act_block">
         <div class="container">
@@ -212,21 +212,6 @@
                     <img src="/images/banners/two-room-2023-02.jpg" alt="Сохрани свои деньги — купи квартиру выгодно!" />
                 </div>
             </div>
-	        <div class="action_block_items">
-			   <div class="action_block_item">
-			       <div class="descr_action"><a href="/otkryty-prodazhi-mashinomest-v-podzemnom-parkinge/">Открыто бронирование машиномест в подземном паркинге</a></div>
-				   <div class="img_action">
-				   <!--<div class="sale_start">Старт<br>продаж</div>-->
-				   <img src="/images/update-2022/banners/banner-2.jpeg" alt="" />
-                  </div>
-                </div>
-			   <div class="action_block_item">
-			       <div class="descr_action"><a href="/rassrochka-0-na-parking-ot-zastrojschika/">Рассрочка от 0% на паркинг от застройщика</a></div>
-				   <div class="img_action">
-				   <img src="/images/update-2022/banners/bg_action.jpg" alt="" />
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 
