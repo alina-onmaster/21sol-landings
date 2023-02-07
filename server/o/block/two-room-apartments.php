@@ -21,7 +21,7 @@
 	     <div class="nav_phone">(8352) 28-56-51</div>
 		 <div class="nav_work_time">Без обеда и выходных</div>
 	  </div>
-   	</div>  
+   	</div>
    </div>
 </div>
 
@@ -153,7 +153,10 @@
     <div class="page__wrap">
         <div class="accent-text__text-block wow animate__animated animate__fadeInLeft">
             <p>Самым уютным и приятным местом в квартире конечно же является кухня. Это место, где вся семья собирается теплыми вечерами на чашечку горячего шоколада и вкусный мамин пирог.</p>
-            <p><b>Не упустите шанс стать обладателем <span>кухни мечты</span> для вашей семьи!</b></p>
+          <p><b>Не упустите шанс стать обладателем <span>кухни мечты</span> для вашей семьи <a href="#" target="_blank" rel="noopener noreferrer nofollow" style="
+    color: #E55025;
+    text-decoration: none;
+    ">от Borzova Mebel</a> !</b></p>
         </div>
         <div class="accent-text__img-block wow animate__animated animate__fadeInRight">
             <img class="intro__img" src="/images/update-2022/accent-text/image2-300@1x.jpg" alt="Кухня">
