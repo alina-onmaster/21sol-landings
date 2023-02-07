@@ -153,7 +153,7 @@
     <div class="page__wrap">
         <div class="accent-text__text-block wow animate__animated animate__fadeInLeft">
             <p>Самым уютным и приятным местом в квартире конечно же является кухня. Это место, где вся семья собирается теплыми вечерами на чашечку горячего шоколада и вкусный мамин пирог.</p>
-          <p><b>Не упустите шанс стать обладателем <span>кухни мечты</span> для вашей семьи <a href="#" target="_blank" rel="noopener noreferrer nofollow" style="
+          <p><b>Не упустите шанс стать обладателем <span>кухни мечты</span> для вашей семьи <a href="https://borzova-mebel.ru/" target="_blank" rel="noopener noreferrer nofollow" style="
     color: #E55025;
     text-decoration: none;
     ">от Borzova Mebel</a> !</b></p>
