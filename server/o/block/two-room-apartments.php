@@ -37,8 +37,7 @@
       <img class="intro__img" src="/images/update-2022/intro/image2-1200@1x.jpg" alt="Купи двухкомнатную квартиру - выиграй кухонный гарнитур">
     </div>
       <div class="page__text-block wow animate__animated animate__fadeInLeft">
-          <h1 class="page__subtitle"><span>Розыгрыш</span> кухни<br>от Borzova Mebel<br>при покупке<br>2-комнатной квартиры!*</h1>
-          <p>Купи двухкомнатную квартиру - выиграй кухонный гарнитур!</p>
+        <h1 class="page__subtitle">Купи 2-комнатную квартиру – выиграй <span>кухонный гарнитур</span> от Borzova Mebel*</h1>
       </div>
   </div>
 </section>
