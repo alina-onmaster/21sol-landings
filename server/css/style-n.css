@@ -174,6 +174,7 @@ body {
   font-size: 24px;
   color: #555555;
   line-height: 1.2;
+  margin-bottom: 1em;
 }
 @media (min-width: 661px) {
   .page__subtitle {
@@ -2825,4 +2826,19 @@ body {
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
   }
+}
+
+.disclaimer {
+  background-color: #29a7de;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 1em 0;
+}
+.disclaimer__element {
+  margin-bottom: 1em;
+}
+.disclaimer__element p {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+  line-height: 1;
 }
