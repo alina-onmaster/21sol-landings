@@ -7,7 +7,7 @@
         <div class="slide_item">
             <div class="container">
                 <div class="slide_item_block">
-                    <div class="small_title_action">Спецпредложение февраля</div>
+                    <div class="small_title_action">Спецпредложение марта</div>
                     <div class="big_title_action big_title_action_many" style="margin-top: 30px;" ><span style="color: #e5272e">Розыгрыш</span> кухни<br>от Borzova Mebel<br>при покупке<br>2-комнатной квартиры!</div>
                     <div class="button_action"><a class="slider_button_action" href="/two-room-apartments/">Подробнее</a></div>
                 </div>
@@ -47,7 +47,7 @@
     </div>
     <div class="container">
 	<div class="main_slider_nav_block">
-    <div class="main_slider_nav_items">	
+    <div class="main_slider_nav_items">
 	<div class="main_slider_nav">
             <div class="main_slider_prev" id="main_slider_prev"></div>
 			<div id="counter"></div>
@@ -100,8 +100,8 @@
 							    if ($namep == "23440-1") {
 								echo "<div class='position_title'>ИПОТЕКА 3%</div>";
 								} else {
-								echo "<div class='position_title'>{$v['title']}</div>";	
-								}	
+								echo "<div class='position_title'>{$v['title']}</div>";
+								}
 								echo "<div class='position_description'>Живи здесь! Живи&nbsp;с&nbsp;комфортом!</div>";
 								echo "<div class='position_listing'>";
 								echo "<div class='position_listing_img'><img src='/images/main_new/icon_1.svg' alt=''></div>";
@@ -116,7 +116,7 @@
 								echo "<div class='position_listing_description'>В подъездах: колясочная</div>";
 								echo "</div>";
 								echo "<div class='position_link'><a href='".(empty($v['link']) ? $v['adr'] : $v['link'])."'>Подробнее</a></div>";
-							echo "</div>";	
+							echo "</div>";
 							echo "</div>";
 							echo "<div class='position_img_block'>";
 							if ($namep == "23440-1") {
@@ -150,7 +150,7 @@
 				   <div class="position_listing_description">В подъездах: колясочная и лапомойка с трапом</div>
 				</div>
 				<div class="position_link"><a href="/pozicii-v-prodazhe/poziciya-2-new/">Подробнее</a></div>
-			 </div>	
+			 </div>
 			 </div>
 			 <div class="position_img_block">
 			 <img src="/images/main_new/bg_section_1.jpg" alt="">
@@ -174,18 +174,18 @@
 				   <div class="position_listing_description">В подъездах: колясочная и лапомойка с трапом</div>
 				</div>
 				<div class="position_link"><a href="/pozicii-v-prodazhe/poziciya-22-new/">Подробнее</a></div>
-			 </div>	
+			 </div>
 			 </div>
 			 <div class="position_img_block">
 			 <img src="/images/main_new/bg_section_1.jpg" alt="">
 			 </div>
 		  </div> -->
 	   </div>
-    </div>   
+    </div>
 </div>
 <div class="position_sale">
-    
-	
+
+
 	<!-- <div class="position_sale_block">
 		<div class="container">
 			<h2 class="title_h2">Позиции в продаже</h2>
@@ -320,7 +320,7 @@
 				<?php
 				$actions = $DB->select('SELECT * FROM ?_map WHERE s_close=? AND parent_id=? AND menuname=? ORDER BY datepost DESC LIMIT 3', 0, 22439, '');
 				$news = $DB->select('SELECT * FROM ?_map WHERE s_close=? AND parent_id=? AND menuname=? ORDER BY datepost DESC LIMIT 3', 0, 22413, '');
-				
+
 				if($actions || $news){
 					$arr = array_merge($actions, $news);
 
@@ -330,7 +330,7 @@
 						$date[$key] = $row['datepost'];
 					}
 					array_multisort($date, SORT_DESC, $arr);
-					
+
 					$count = 0;
 					foreach($arr as $a){
 						if($count < 3) {
@@ -386,7 +386,7 @@
 				*/ ?>
 			</div>
 		</div>
-	</div>	
+	</div>
 	<div class="district_plan">
 	<div class="sheald_district_plan">
 	   <div class="container">
@@ -445,7 +445,7 @@
 				</div>
 			 </div>
 		  </div>
-	</div>	  
+	</div>
 	</div>
 	<div class="district_plan2">
 	<div class="cloud_bg_2"></div>
@@ -513,7 +513,7 @@
 				</div>
 			 </div>
 		  </div>
-	</div>	  
+	</div>
 	</div>
 	<div class="preim_block project_plan">
 	<div class="container">

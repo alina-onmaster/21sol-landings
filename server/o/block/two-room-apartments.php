@@ -205,17 +205,17 @@
       <img src="/images/update-2022/offer/image2-1200@1x.jpg" alt="Счастливая семья">
     </div>
     <div class="page__text-block wow animate__animated animate__fadeInLeft">
-        <h2 class="page__subtitle"><span>Спецпредложение</span> февраля</h2>
+        <h2 class="page__subtitle"><span>Спецпредложение</span> марта</h2>
         <ul class="offer__list">
             <li class="offer__item offer__item--kitchen"><span>Розыгрыш</span> кухонного гарнитура при покупке 2-комнатной квартиры* <a class="offer__item-link-more" href="/upload/File/kitchen.docx" target="_blank">Подробнее</a></li>
             <li class="offer__item offer__item--mortgage"><span>Ипотека</span> на весь срок кредита от 5,7%* <a class="offer__item-link-more" href="/pozicii-v-prodazhe/akciya-1/" target="_blank">Узнать</a></li>
-            <li class="offer__item"><span>Ежемесячный платеж</span> 21 992 руб.*</li>
+            <li class="offer__item offer__item--money"><span>Ежемесячный платеж</span> 21 992 руб.*</li>
             <li class="offer__item offer__item--installment-plan"><span>Рассрочка</span> 0%*</li>
             <li class="offer__item offer__item--tradein"><span>Трейд-ин</span>. Возможность сдать свой автомобиль в счет первоначального взноса*</li>
         </ul>
     </div>
   </div>
-    <p class="offer__footnote">* Акция действует до 15.03.2023 г. Подробнее в отделе продаж. Не оферта</p>
+    <p class="offer__footnote">* Акция действует до 31.03.2023 г. Подробнее в отделе продаж. Не оферта</p>
 </section>
 
         <section class="house-benefits page__section">
@@ -315,7 +315,7 @@
 <div class="disclaimer">
   <div class="page__wrap">
     <div class="disclaimer__element">
-      <p>*Акция действует с 01.02.2023 по 15.03.2023 год. Подробнее у менеджеров отдела продаж.</p>
+      <p>*Акция действует с 01.02.2023 по 31.03.2023 год. Подробнее у менеджеров отдела продаж.</p>
     </div>
     <div class="disclaimer__element">
       <p>**Ставка от 5,7% годовых доступна в рамках программы ПАО Сбербанк «Ипотека с государственной поддержкой для семей с детьми» на срок кредитования от 12 до 360 месяцев при приобретении строящегося жилья у юридического лица по ДДУ/ДУПТ или готовое жилье у застройщика – партнера Банка: ГК «Удача», при первоначальном взносе от 15% от стоимости кредитуемого жилого помещения, а также при проведении сделки с услугой «Сервис электронной регистрации». При отказе заемщика от услуги «Сервис электронной регистрации» процентная ставка по кредиту увеличивается на 0,3% годовых.</p>
