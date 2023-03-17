@@ -1175,8 +1175,10 @@ body {
   background-image: url("../images/update-2022/offer/tradein.svg");
   background-size: 1.75em;
 }
-
-
+.offer__item--money::before {
+  background-image: url("../images/update-2022/offer/money.svg");
+  background-size: 1.5em;
+}
 .offer__item::before {
   content: "";
   position: absolute;
