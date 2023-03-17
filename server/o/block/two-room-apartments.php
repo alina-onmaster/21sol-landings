@@ -207,7 +207,7 @@
     <div class="page__text-block wow animate__animated animate__fadeInLeft">
         <h2 class="page__subtitle"><span>Спецпредложение</span> марта</h2>
         <ul class="offer__list">
-            <li class="offer__item offer__item--kitchen"><span>Розыгрыш</span> кухонного гарнитура при покупке 2-комнатной квартиры* <a class="offer__item-link-more" href="/upload/File/kitchen.docx" target="_blank">Подробнее</a></li>
+            <li class="offer__item offer__item--kitchen"><span>Розыгрыш</span> кухонного гарнитура при покупке 2-комнатной квартиры* <a class="offer__item-link-more" href="/upload/File/kitchen-2023-03-31.docx" target="_blank">Подробнее</a></li>
             <li class="offer__item offer__item--mortgage"><span>Ипотека</span> на весь срок кредита от 5,7%* <a class="offer__item-link-more" href="/pozicii-v-prodazhe/akciya-1/" target="_blank">Узнать</a></li>
             <li class="offer__item offer__item--money"><span>Ежемесячный платеж</span> 21 992 руб.*</li>
             <li class="offer__item offer__item--installment-plan"><span>Рассрочка</span> 0%*</li>
