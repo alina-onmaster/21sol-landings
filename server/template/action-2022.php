@@ -202,20 +202,6 @@
       </section>
 
 
-
-      <section class="sect_act_block">
-        <div class="container">
-          <div class="action_block_items">
-            <div class="action_block_item">
-                <div class="descr_action"><a href="https://21sol.ru/two-room-apartments/ ">Розыгрыш кухни<br>от Borzova Mebel при покупке<br>2-комнатной квартиры!</a></div>
-                <div class="img_action">
-                    <img src="/images/banners/two-room-2023-02.jpg" alt="Сохрани свои деньги — купи квартиру выгодно!" />
-                </div>
-            </div>
-        </div>
-      </section>
-
-
       <section id="offices" class="section section-offices">
         <div class="offices__wrapper">
           <div class="container">

@@ -5,15 +5,14 @@
 <div class="main_slider_new">
     <div class="owl-carousel">
         <div class="slide_item">
-            <div class="container">
-                <div class="slide_item_block">
-                    <div class="small_title_action">Спецпредложение марта</div>
-                    <div class="big_title_action big_title_action_many" style="margin-top: 30px;" ><span style="color: #e5272e">Розыгрыш</span> кухни<br>от Borzova Mebel<br>при покупке<br>2-комнатной квартиры!</div>
-                    <div class="button_action"><a class="slider_button_action" href="/two-room-apartments/">Подробнее</a></div>
-                </div>
-            </div>
-            <div class="slide_bg" style="background-image: url(/images/banners/two-room-2023-02.jpg);"></div>
+        <div class="container">
+          <div class="slide_item_block">
+            <div class="big_title_action smaller_title big_title_action_june">Последние 2 комнатные квартиры в позиции №1. Успейте купить!т<br><br></div>
+            <div class="button_action"><a class="slider_button_action" href="https://21sol.ru/pozicii-v-prodazhe/poziciya-1/">Подробнее</a></div>
+          </div>
         </div>
+        <div class="slide_bg" style="background-image: url(/images/main_new/banner_2_15-06-22.jpg);"></div>
+      </div>
         <div class="slide_item">
             <div class="container">
                 <div class="slide_item_block">
@@ -24,15 +23,7 @@
             </div>
             <div class="slide_bg" style="background-image: url(/images/banners/ipoteka-2023-12.jpg);"></div>
         </div>
-        <div class="slide_item">
-           <div class="container">
-               <div class="slide_item_block">
-                  <div class="big_title_action smaller_title big_title_action_june">Старт продаж позиции 1 в районе Солнечный-комфорт<br><br></div>
-                  <div class="button_action"><a class="slider_button_action" href="https://21sol.ru/pozicii-v-prodazhe/poziciya-1/">Подробнее</a></div>
-               </div>
-           </div>
-           <div class="slide_bg" style="background-image: url(/images/main_new/banner_2_15-06-22.jpg);"></div>
-        </div>
+
         <div class="slide_item slide_item_05">
            <div class="container">
                <div class="slide_item_block">
