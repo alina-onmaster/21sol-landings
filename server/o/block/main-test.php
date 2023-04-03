@@ -7,7 +7,7 @@
         <div class="slide_item">
         <div class="container">
           <div class="slide_item_block">
-            <div class="big_title_action smaller_title big_title_action_june">Последние 2 комнатные квартиры в позиции №1. Успейте купить!т<br><br></div>
+            <div class="big_title_action smaller_title big_title_action_june">Последние 2 комнатные квартиры в позиции №1. Успейте купить!<br><br></div>
             <div class="button_action"><a class="slider_button_action" href="https://21sol.ru/pozicii-v-prodazhe/poziciya-1/">Подробнее</a></div>
           </div>
         </div>
