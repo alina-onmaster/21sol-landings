@@ -4,8 +4,17 @@
 
 <div class="main_slider_new">
     <div class="owl-carousel">
-
-        <div class="slide_item">
+      <div class="slide_item">
+        <div class="container">
+          <div class="slide_item_block">
+            <div class="small_title_action">В АПРЕЛЕ</div>
+            <div class="big_title_action big_title_action_many" style="margin-top: 30px;" ><span style="color: red;">СТАРТ ПРОДАЖ<br>ПОЗИЦИЯ 4 </span></div>
+            <div class="button_action"><a class="slider_button_action" href="/pozicii-v-prodazhe/poziciya-4/">Подробнее</a></div>
+          </div>
+        </div>
+        <div class="slide_bg" style="background-image: url(/img/poz4/poz4-vid1.jpg);"></div>
+      </div>
+      <div class="slide_item">
             <div class="container">
                 <div class="slide_item_block">
                     <div class="small_title_action">АКЦИЯ В МАРТЕ</div>
@@ -18,8 +27,8 @@
       <div class="slide_item">
         <div class="container">
           <div class="slide_item_block">
-            <div class="big_title_action smaller_title big_title_action_june">Последние 2 комнатные квартиры в позиции №1. Успейте купить!<br><br></div>
-            <div class="button_action"><a class="slider_button_action" href="https://21sol.ru/pozicii-v-prodazhe/poziciya-1/">Подробнее</a></div>
+            <div class="big_title_action smaller_title big_title_action_june">Последние 2-комнатные квартиры в позиции №1. Успейте купить!<br><br></div>
+            <div class="button_action"><a class="slider_button_action" href="/pozicii-v-prodazhe/poziciya-1/">Подробнее</a></div>
           </div>
         </div>
         <div class="slide_bg" style="background-image: url(/images/main_new/banner_2_15-06-22.jpg);"></div>

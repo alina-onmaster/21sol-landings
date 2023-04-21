@@ -16,7 +16,7 @@
   <section class="intro page__section">
   <div class="page__wrap">
     <div class="page__img-block wow animate__animated animate__fadeInRight">
-      <img class="intro__img" src="/img/poz4/poz1-vid1.jpg" alt="">
+      <img class="intro__img" src="/img/poz4/poz4-vid1.jpg" alt="">
     </div>
     <div class="page__text-block wow animate__animated animate__fadeInLeft">
       <h1 class="page__subtitle">Старт продаж <span style="display: block;">Позиция 4</span><br>только 1 месяц держим стартовые цены</h1>
@@ -80,7 +80,7 @@ if (strpos($PAGE['title'], ' ') !== false) {
 
     echo "<h1 class='h2page anim'><span>{$t1}</span> {$t2}</h1>";
 
-    echo '<p class="prod_desc">9-ти этажный дом с вентилируемым фасадом и автономным отоплением по ул. Асламаса, рядом с ГП "Лента"</p>';
+    echo '<p class="prod_desc"></p>';
 
 	echo "<div class='prod' style='margin-bottom:15px'>\n";
 
