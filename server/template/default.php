@@ -4,9 +4,9 @@
 
 if($PAGE['id'] == 1 || $PAGE['id'] == 23387 || $PAGE['id'] == 23467){
     echo "<div class='main_test'><div>";
-} else { 
+} else {
 	echo "<div class='width1200 clearfix pagen".($PAGE['id'] != 1 ? " top170" : "")."'><div>";
-} 
+}
 
 if($PAGE['parent_id'] == 22442 || $PAGE['parent_id'] == 22697 || $PAGE['id'] == 22411){
 //	$PAGE['title'] = 'Ход строительства - '.$PAGE['title'];
@@ -21,7 +21,7 @@ if (strpos($PAGE['title'], ' ') !== false) {
 if($PAGE['id'] != 1 && $PAGE['parent_id'] != 0) echo "<div class='navigation'><a href='/'>главная</a> <span style='font-size:8px'>/</span> ".strtolower(navigation_line())."</div>";
 if($PAGE['s_title'] == 1) echo "<h1 class='h2page anim'><span>{$t1}</span> {$t2}</h1>";
 
-if($PAGE['parent_id'] == 22697 && !empty($PAGE['pics']) && $PAGE['id'] != 23405){
+if($PAGE['parent_id'] == 22697 && !empty($PAGE['pics']) && $PAGE['id'] != 23405 && $PAGE['id'] != 23505){
 	if ($PAGE['id'] == 23405) {
 		echo '<p class="prod_desc">9-ти этажный дом с вентилируемым фасадом и автономным отоплением по ул. Асламаса, рядом с ГП "Лента"</p>';
 	}
@@ -29,9 +29,9 @@ if($PAGE['parent_id'] == 22697 && !empty($PAGE['pics']) && $PAGE['id'] != 23405)
 	echo "<div class='prod prod__action' style='margin-bottom:15px'>\n";
 	}
 	else {
-	echo "<div class='prod' style='margin-bottom:15px'>\n";	
+	echo "<div class='prod' style='margin-bottom:15px'>\n";
 	}
-	
+
 	$cat_pics = glob("upload/Image/catalog/{$PAGE['pics']}-*.jpg");
 //	$cat_pics = array_combine(array_map("filemtime", $cat_pics), $cat_pics);
 //	if(moderator()) pr($cat_pics);
