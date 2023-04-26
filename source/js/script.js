@@ -69,6 +69,19 @@ new Swiper('.swiper.article__slider-wrap--6',{
   slidesPerView: 1,
 });
 
+new Swiper('.swiper.main-slider--poz4',{
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  effect: 'fade',
+  slidesPerView: 1,
+  autoplay: {
+    delay: 7000,
+    disableOnInteraction: false,
+  }
+});
+
 
 
 wow = new WOW({
