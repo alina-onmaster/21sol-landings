@@ -946,5 +946,22 @@
     font-size: 14px;
     line-height: 19px;
     color: #5B5B5B;
+
+    &__text {
+      overflow: hidden;
+      transition: @transition;
+    }
+
+    & .readmore-js-toggle {
+      color: inherit;
+      display: inline-block;
+      width: 100%;
+      box-shadow: 0px 3px 38px 31px #F6F6F6;
+      transition: @transition;
+
+      &--opened {
+        box-shadow: none;
+      }
+    }
   }
 }

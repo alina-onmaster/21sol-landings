@@ -20,8 +20,18 @@
 <main class="poz4">
   <include src="./source/less/blocks/poz4/poz4.html"></include>
 </main>
+<script src="js/jquery-3.5.1.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/swiper-bundle.min.js"></script>
+<script src="js/readmore.js"></script>
 <script src="./js/script.js"></script>
+<script>
+  // Свернуть-развернуть полное описание
+  $('.note__text').readmore({ //вызов плагина
+    speed: 500, //скорость раскрытия скрытого текста (в миллисекундах)
+    moreLink: '<a class="readmore-js-toggle" href="#">Развернуть полное описание</a>', //ссылка "Читать далее", можно переименовать
+    lessLink: '<a class="readmore-js-toggle readmore-js-toggle--opened" href="#">Свернуть полное описание</a>' //ссылка "Скрыть", можно переименовать
+  });
+</script>
 </body>
 </html>
