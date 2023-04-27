@@ -182,4 +182,33 @@
       }
     }
   }
+
+  &--red {
+    color: @light;
+    background-color: @red;
+
+
+    &:hover,
+    &:focus {
+      color: @gray;
+      background-color: @yellow;
+
+      & .icon {
+        & use.icon__symbol {
+          fill: @gray;
+        }
+      }
+    }
+
+    & .icon {
+      width: 14px;
+      height: 14px;
+      transition: @transition;
+
+      & use.icon__symbol {
+        transition: @transition;
+        fill: @light;
+      }
+    }
+  }
 }

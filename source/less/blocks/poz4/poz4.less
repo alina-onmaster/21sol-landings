@@ -776,8 +776,94 @@
   }
 
   & .contacts {
+    & .tabs {
+      display: inline-flex;
+      align-items: flex-start;
+      justify-content: center;
+      flex-wrap: wrap;
+      column-gap: 0;
+
+      @media (min-width: 768px) {
+        column-gap: 30px;
+      }
+    }
+
+    & .tabs>input[type="radio"] {
+      position: absolute;
+      overflow: hidden;
+      clip: rect(0 0 0 0);
+      margin: -1px;
+      padding: 0;
+      width: 1px;
+      height: 1px;
+      border: 0;
+      white-space: nowrap;
+      clip-path: inset(100%);
+    }
+
+    & .tabs>.tabs__content  {
+      display: none;
+    }
+
+    & .tabs__content {
+      width: 100%;
+      flex-grow: 1;
+      padding-top: 30px;
+      border-top: 1px solid #CCCCCC;
+    }
+
+    & #tab-btn-office1:checked~#content-office1,
+    & #tab-btn-office2:checked~#content-office2 {
+      display: block;
+    }
+
+    & .tabs>label {
+      user-select: none;
+      font-weight: 700;
+      border-radius: 10px 10px 0 0;
+      text-transform: uppercase;
+      padding: 10px;
+      cursor: pointer;
+      position: relative;
+      font-size: 14px;
+      border: 1px solid #CCCCCC;
+      border-bottom: none;
+      z-index: 3;
+      top: 1px;
+      text-align: center;
+      background-color: #CCCCCC;
+      color: @light;
+      width: 48%;
+
+      @media (min-width: 768px) {
+        width: 350px;
+        font-size: 24px;
+        border-radius: 30px 30px 0 0;
+        padding: 25px;
+      }
+
+      &:hover,
+      &:focus {
+        color: #000000;
+      }
+    }
+
+    & .tabs>input[type="radio"]:checked+label {
+      color: #000000;
+      border-bottom: 1px solid #F6F6F6;
+      background-color: #F6F6F6;
+    }
+
     &__wrap {
       position: relative;
+
+      &--office2 {
+        @media (min-width: 1025px) {
+          & .contacts__content {
+            margin-left: auto;
+          }
+        }
+      }
     }
 
     &__content-wrap {
@@ -801,7 +887,39 @@
       @media (min-width: 1025px) {
         width: 460px;
       }
+    }
 
+    & h3 {
+      font-size: 30px;
+      line-height: 41px;
+      margin-bottom: 30px;
+
+      & span {
+        display: block;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+      }
+    }
+
+    &__schedule {
+      & p {
+        margin-bottom: 30px;
+      }
+    }
+
+    &__schedule-title {
+      margin-bottom: 10px;
+    }
+
+    &__btn-appointment {
+      width: 100%;
+      max-width: 365px;
+      min-height: 75px;
+      border-radius: 60px;
     }
 
     &__map-wrap {
@@ -827,7 +945,6 @@
     font-weight: 300;
     font-size: 14px;
     line-height: 19px;
-
     color: #5B5B5B;
   }
 }
