@@ -481,23 +481,23 @@
     &__grid {
       display: grid;
       grid-template-columns: 1fr;
-      grid-template-areas: "text" "light-block" "blue-block" "link-request";
+      grid-template-areas: "text" "blue-block" "light-block" "link-request";
       gap: 30px;
 
       @media (min-width: 768px) {
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
           "text text"
-          "light-block blue-block"
+          "blue-block light-block"
           "link-request link-request";
       }
 
       @media (min-width: 1200px) {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas:
-          "text light-block blue-block"
-          ". light-block blue-block"
-          "link-request light-block blue-block";
+          "text blue-block light-block"
+          ". blue-block light-block"
+          "link-request blue-block light-block";
       }
     }
 
@@ -618,6 +618,11 @@
         border-radius: 50px;
         overflow: hidden;
         background: linear-gradient(180deg, rgba(0, 0, 0, 0) 72.4%, rgba(0, 0, 0, 0.5) 100%);
+
+        @media (min-width: 1025px) {
+          max-width: 30%;
+          margin: 0 auto;
+        }
 
         &:last-child {
           background: @light;
