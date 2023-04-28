@@ -14,7 +14,7 @@
 			 <li><a href="">C ремонтом</a></li>
 			 <li><a href="">Трейд-ин</a></li>
 			 <li><a href="">Условия покупки</a></li>
-			 <li><a href="">Контакты</a></li> 
+			 <li><a href="">Контакты</a></li>
 		  </ul>
 		  */ ?>
 
@@ -50,11 +50,11 @@
 			</ul>
 	  </div>
 	  <div class="navigation_contacts">
-          <a href="viber://chat?number=%2B79373726206" class="nav_phone nav_phone--viber">8 937 372 62 06</a>
+          <a href="viber://chat?number=%2B79373726166" class="nav_phone nav_phone--viber">8 937 372 61 66</a>
           <a href="https://t.me/udacha21_bot" class="nav_phone nav_phone--telegram">@udacha21_bot</a>
 	     <a href="tel:8352410000" class="nav_phone">(8352) 41-00-00</a>
 		 <div class="nav_work_time">Без обеда и выходных</div>
 	  </div>
-   	</div>  
+   	</div>
    </div>
 </div>
