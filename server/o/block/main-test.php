@@ -4,15 +4,57 @@
 
 <div class="main_slider_new">
     <div class="owl-carousel">
-      <div class="slide_item">
+      <div class="slide_item slide_item--start-poz4">
         <div class="container">
           <div class="slide_item_block">
-            <div class="small_title_action">В АПРЕЛЕ</div>
-            <div class="big_title_action big_title_action_many" style="margin-top: 30px;" ><span style="color: red;">СТАРТ ПРОДАЖ<br>ПОЗИЦИЯ 4 </span></div>
+            <div class="small_title_action" style="
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <mask id="mask0_411_15" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="2" y="0" width="24" height="28">
+                  <path d="M4.66675 25.6666H9.33341M7.00008 25.6666V2.33331" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M23.3333 3.5H7V12.8333H23.3333L21 8.16667L23.3333 3.5Z" fill="white" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                </mask>
+                <g mask="url(#mask0_411_15)">
+                  <path d="M0 0H28V28H0V0Z" fill="#23A4DD"/>
+                </g>
+              </svg>
+              СТАРТ ПРОДАЖ
+            </div>
+            <div class="big_title_action big_title_action_many" style="margin-top: 30px;" ><span style="color: red;"><br>ПОЗИЦИЯ 4</span></div>
+            <div class="description_action">только 1 месяц держим стартовые цены</div>
             <div class="button_action"><a class="slider_button_action" href="/pozicii-v-prodazhe/poziciya-4/">Подробнее</a></div>
           </div>
         </div>
-        <div class="slide_bg" style="background-image: url(/img/poz4/poz4-vid1.jpg);"></div>
+        <div class="slide_bg" style="background-image: url(/img/poz4/poz4-banner.jpg);"></div>
+        <style>
+          .slide_item--start-poz4 .slide_bg::before {
+            content: "";
+            position: absolute;
+            top: 25px;
+            left: 25px;
+            right: 25px;
+            bottom: 25px;
+            width: 86vw;
+            height: 100%;
+            background: url(/img/poz4/poz4-banner-adv.png) no-repeat center top;
+            background-size: contain;
+          }
+          @media (min-width: 661px) {
+            .slide_item--start-poz4 .slide_bg::before {
+              width: 39vw;
+            }
+          }
+          @media (min-width: 1025px) {
+            .slide_item--start-poz4 .slide_bg::before {
+              top: 45px;
+              left: 45px;
+              width: 45vw;
+            }
+          }
+        </style>
       </div>
       <div class="slide_item">
             <div class="container">
