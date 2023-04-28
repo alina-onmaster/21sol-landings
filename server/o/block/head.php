@@ -377,7 +377,7 @@ if(isset($_GET['okmail'])){
                         }
                         ?>
 
-                        <li><a href="viber://chat?number=%2B79373726166" class="nav_phone nav_phone--viber" style="color:#23a4dd;">8 937 372 61 66</a></li>
+                        <li><a href="https://wa.me/79373726166" class="nav_phone nav_phone--whatsapp" style="color:#23a4dd;">8 937 372 61 66</a></li>
                         <li><a href="https://t.me/udacha21_bot" class="nav_phone nav_phone--telegram" style="color:#23a4dd;">@udacha21_bot</a></li>
                         <li><a href="tel:8352410000" class="nav_phone" style="color:#23a4dd;">(8352) 41-00-00</a></li>
                     </ul>

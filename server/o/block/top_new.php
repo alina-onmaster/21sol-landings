@@ -50,7 +50,7 @@
 			</ul>
 	  </div>
 	  <div class="navigation_contacts">
-          <a href="viber://chat?number=%2B79373726166" class="nav_phone nav_phone--viber">8 937 372 61 66</a>
+          <a href="https://wa.me/79373726166" class="nav_phone nav_phone--whatsapp">8 937 372 61 66</a>
           <a href="https://t.me/udacha21_bot" class="nav_phone nav_phone--telegram">@udacha21_bot</a>
 	     <a href="tel:8352410000" class="nav_phone">(8352) 41-00-00</a>
 		 <div class="nav_work_time">Без обеда и выходных</div>

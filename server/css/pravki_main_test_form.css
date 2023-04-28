@@ -1766,8 +1766,8 @@
   background-size: contain;
 
 }
-.nav_phone--viber:before {
-  background-image: url("/images/main_new/nav_viber.svg");
+.nav_phone--whatsapp:before {
+  background-image: url("/images/main_new/nav_whatsapp.svg");
 }
 
 .nav_phone--telegram:before {
