@@ -9,8 +9,8 @@
   }
 
   & .page__wrap {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   & .page__section {
@@ -28,7 +28,12 @@
   }
 
   & .first-screen {
-    position: relative;
+    &>.page__wrap {
+      position: relative;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
     margin-bottom: 60px;
   }
 
@@ -582,7 +587,7 @@
         position: relative;
         display: block;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 14px;
         padding-right: 23px;
         margin-top: 2px;
 
@@ -974,4 +979,11 @@
       }
     }
   }
+}
+
+.pagen {
+  background-color: #F6F6F6!important;
+}
+.navigation {
+  display: none;
 }
