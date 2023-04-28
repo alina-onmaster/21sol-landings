@@ -24,7 +24,7 @@
               —“ј–“ ѕ–ќƒј∆
             </div>
             <div class="big_title_action big_title_action_many" style="margin-top: 30px;" ><span style="color: red;"><br>ѕќ«»÷»я 4</span></div>
-            <div class="description_action">только 1 мес€ц держим стартовые цены</div>
+            <div class="description_action">только 1 мес€ц держим<br>стартовые цены</div>
             <div class="button_action"><a class="slider_button_action" href="/pozicii-v-prodazhe/poziciya-4/">ѕодробнее</a></div>
           </div>
         </div>
@@ -37,21 +37,25 @@
             left: 25px;
             right: 25px;
             bottom: 25px;
-            width: 86vw;
-            height: 100%;
+            width: auto;
+            height: 165px;
             background: url(/img/poz4/poz4-banner-adv.png) no-repeat center top;
             background-size: contain;
           }
           @media (min-width: 661px) {
             .slide_item--start-poz4 .slide_bg::before {
-              width: 39vw;
+              top: 0;
+              left: 0;
+              width: 37vw;
+              height: 85%;
             }
           }
           @media (min-width: 1025px) {
             .slide_item--start-poz4 .slide_bg::before {
-              top: 45px;
-              left: 45px;
+              top: 36px;
+              left: 24px;
               width: 45vw;
+              max-width: 285px;
             }
           }
         </style>
