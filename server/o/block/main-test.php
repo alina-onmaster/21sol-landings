@@ -52,10 +52,11 @@
           }
           @media (min-width: 1025px) {
             .slide_item--start-poz4 .slide_bg::before {
-              top: 36px;
-              left: 24px;
+              top: 0;
+              left: 0;
               width: 45vw;
-              max-width: 285px;
+              max-width: 379px;
+              height: 100%;
             }
           }
         </style>

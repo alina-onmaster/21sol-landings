@@ -28,7 +28,8 @@
 <!--Меню основного сайта-->
 <main class="poz4">
   <div class="first-screen">
-  <section class="main-slider main-slider--poz4 swiper">
+    <div class="page__wrap">
+      <section class="main-slider main-slider--poz4 swiper">
     <ul class="main-slider__list swiper-wrapper">
       <li class="main-slider__item swiper-slide">
         <div class="main-slider__item-img-wrap">
@@ -128,6 +129,8 @@
     </ul>
   </div>
   <h1 class="visually-hidden">Старт продаж дома позиции 4 микрорайон Солнечный Комфорт</h1>
+    </div>
+  
 </div>
 <section class="about-zhk page__section">
   <div class="page__wrap">
@@ -231,7 +234,7 @@
           <input type="radio" name="tab-btn" id="tab-btn-7" value=""><label for="tab-btn-7">Секция Ж</label>
           <div class="tabs__content" id="content-1">
             <div class="plans__img-wrap">
-              <a class="plans__img-link" href="https://21sol.ru/onmaster/img/poz4/poz4-section-a.png">
+              <a class="plans__img-link" href="https://21sol.ru/onmaster/img/poz4/poz4-section-a-bg.png" data-fancybox="fotorajon">
                 <img class="plans__img" src="https://21sol.ru/onmaster/img/poz4/poz4-section-a-850@1x.png" alt="">
                 <svg class="icon" width="34px" height="34px">
                   <use class="icon__symbol" xlink:href="#icon-increase"></use>
@@ -241,7 +244,7 @@
           </div>
           <div class="tabs__content" id="content-2">
             <div class="plans__img-wrap">
-              <a class="plans__img-link" href="https://21sol.ru/onmaster/img/poz4/poz4-section-b.png">
+              <a class="plans__img-link" href="https://21sol.ru/onmaster/img/poz4/poz4-section-b-bg.png" data-fancybox="fotorajon">
                 <img class="plans__img" src="https://21sol.ru/onmaster/img/poz4/poz4-section-b-850@1x.png" alt="">
                 <svg class="icon" width="34px" height="34px">
                   <use class="icon__symbol" xlink:href="#icon-increase"></use>
@@ -251,7 +254,7 @@
           </div>
           <div class="tabs__content" id="content-3">
             <div class="plans__img-wrap">
-              <a class="plans__img-link" href="https://21sol.ru/onmaster/img/poz4/poz4-section-v.png">
+              <a class="plans__img-link" href="https://21sol.ru/onmaster/img/poz4/poz4-section-v-bg.png" data-fancybox="fotorajon">
                 <img class="plans__img" src="https://21sol.ru/onmaster/img/poz4/poz4-section-v-850@1x.png" alt="">
                 <svg class="icon" width="34px" height="34px">
                   <use class="icon__symbol" xlink:href="#icon-increase"></use>
@@ -261,7 +264,7 @@
           </div>
           <div class="tabs__content" id="content-4">
             <div class="plans__img-wrap">
-              <a class="plans__img-link" href="https://21sol.ru/onmaster/img/poz4/poz4-section-g.png">
+              <a class="plans__img-link" href="https://21sol.ru/onmaster/img/poz4/poz4-section-g-bg.png" data-fancybox="fotorajon">
                 <img class="plans__img" src="https://21sol.ru/onmaster/img/poz4/poz4-section-g-850@1x.png" alt="">
                 <svg class="icon" width="34px" height="34px">
                   <use class="icon__symbol" xlink:href="#icon-increase"></use>
@@ -271,7 +274,7 @@
           </div>
           <div class="tabs__content" id="content-5">
             <div class="plans__img-wrap">
-              <a class="plans__img-link" href="https://21sol.ru/onmaster/img/poz4/poz4-section-d.png">
+              <a class="plans__img-link" href="https://21sol.ru/onmaster/img/poz4/poz4-section-d-bg.png" data-fancybox="fotorajon">
                 <img class="plans__img" src="https://21sol.ru/onmaster/img/poz4/poz4-section-d-850@1x.png" alt="">
                 <svg class="icon" width="34px" height="34px">
                   <use class="icon__symbol" xlink:href="#icon-increase"></use>
@@ -281,7 +284,7 @@
           </div>
           <div class="tabs__content" id="content-6">
             <div class="plans__img-wrap">
-              <a class="plans__img-link" href="https://21sol.ru/onmaster/img/poz4/poz4-section-e.png">
+              <a class="plans__img-link" href="https://21sol.ru/onmaster/img/poz4/poz4-section-e-bg.png" data-fancybox="fotorajon">
                 <img class="plans__img" src="https://21sol.ru/onmaster/img/poz4/poz4-section-e-850@1x.png" alt="">
                 <svg class="icon" width="34px" height="34px">
                   <use class="icon__symbol" xlink:href="#icon-increase"></use>
@@ -291,7 +294,7 @@
           </div>
           <div class="tabs__content" id="content-7">
             <div class="plans__img-wrap">
-              <a class="plans__img-link" href="https://21sol.ru/onmaster/img/poz4/poz4-section-zh.png">
+              <a class="plans__img-link" href="https://21sol.ru/onmaster/img/poz4/poz4-section-zh-bg.png" data-fancybox="fotorajon">
                 <img class="plans__img" src="https://21sol.ru/onmaster/img/poz4/poz4-section-zh-850@1x.png" alt="">
                 <svg class="icon" width="34px" height="34px">
                   <use class="icon__symbol" xlink:href="#icon-increase"></use>
@@ -331,7 +334,7 @@
         </svg>
         оставить заявку
       </a>
-      <div class="how-buy__options how-buy__options--light wow animate__animated animate__flipInX">
+      <div class="how-buy__options how-buy__options--blue wow animate__animated animate__flipInX">
         <h3>Вторичное<br>жилье</h3>
         <div class="how-buy__option">
           <div class="how-buy__option-name">процентная ставка</div>
@@ -346,7 +349,7 @@
           <div class="how-buy__option-size">6 831 653 Р<span>больше на 4 204 416 Р</span></div>
         </div>
       </div>
-      <div class="how-buy__options how-buy__options--blue wow animate__animated animate__flipInX">
+      <div class="how-buy__options how-buy__options--light wow animate__animated animate__flipInX">
         <h3>Новостройка<br>семейная ипотека</h3>
         <div class="how-buy__option">
           <div class="how-buy__option-name">процентная ставка</div>
@@ -368,33 +371,6 @@
   <div class="page__wrap">
     <h2 class="page__subtitle wow animate__animated animate__fadeInLeft">Ход строительства</h2>
     <ul class="construction-progress__album-list">
-      <li class="wow animate__animated animate__flipInY">
-          <picture>
-            <source type="image/webp" srcset="
-            https://21sol.ru/onmaster/img/poz4/hod-stroitelstva202303-900.webp 1x,
-            https://21sol.ru/onmaster/img/poz4/hod-stroitelstva202303-900@2x.webp 2x,
-            https://21sol.ru/onmaster/img/poz4/hod-stroitelstva202303-900@3x.webp 3x">
-            <img src="
-            https://21sol.ru/onmaster/img/poz4/hod-stroitelstva202303-900.jpg 1x" srcset="
-            https://21sol.ru/onmaster/img/poz4/hod-stroitelstva202303-900@2x.jpg 2x,
-            https://21sol.ru/onmaster/img/poz4/hod-stroitelstva202303-900@3x.jpg 3x" alt="Ход строительства март 2023 года">
-          </picture>
-          <h3>Март 2023 г.</h3>
-      </li>
-      <li class="wow animate__animated animate__flipInY">
-          <picture>
-            <source type="image/webp" srcset="
-            https://21sol.ru/onmaster/img/poz4/hod-stroitelstva202302-900.webp 1x,
-            https://21sol.ru/onmaster/img/poz4/hod-stroitelstva202302-900@2x.webp 2x,
-            https://21sol.ru/onmaster/img/poz4/hod-stroitelstva202302-900@3x.webp 3x">
-            <img src="
-            https://21sol.ru/onmaster/img/poz4/hod-stroitelstva202302-900.jpg 1x" srcset="
-            https://21sol.ru/onmaster/img/poz4/hod-stroitelstva202302-900@2x.jpg 2x,
-            https://21sol.ru/onmaster/img/poz4/hod-stroitelstva202302-900@3x.jpg 3x" alt="Ход строительства февраль 2023 года">
-          </picture>
-          <h3>Февраль 2023 г.</h3>
-
-      </li>
       <li class="wow animate__animated animate__flipInY">
         <a href="https://21sol.ru/foto/">
           <picture>
