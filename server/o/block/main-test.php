@@ -21,16 +21,16 @@
                   <path d="M0 0H28V28H0V0Z" fill="#23A4DD"/>
                 </g>
               </svg>
-              СТАРТ ПРОДАЖ
+              ОТКРЫТО БРОНИРОВНИЕ
             </div>
             <div class="big_title_action big_title_action_many" style="margin-top: 30px;" ><span style="color: red;"><br>ПОЗИЦИЯ 4</span></div>
-            <div class="description_action">только 1 месяц держим<br>стартовые цены</div>
             <div class="button_action"><a class="slider_button_action" href="/pozicii-v-prodazhe/poziciya-4/">Подробнее</a></div>
           </div>
         </div>
         <div class="slide_bg" style="background-image: url(/img/poz4/poz4-banner.jpg);"></div>
         <style>
           .slide_item--start-poz4 .slide_bg::before {
+            display: none;
             content: "";
             position: absolute;
             top: 25px;
@@ -44,6 +44,7 @@
           }
           @media (min-width: 661px) {
             .slide_item--start-poz4 .slide_bg::before {
+              display: block;
               top: 0;
               left: 0;
               width: 37vw;
@@ -52,11 +53,13 @@
           }
           @media (min-width: 1025px) {
             .slide_item--start-poz4 .slide_bg::before {
-              top: 0;
-              left: 0;
+              background: url(/img/poz4/poz4-banner-adv.jpg) no-repeat center top;
+              top: 0px;
+              left: -2px;
               width: 45vw;
               max-width: 379px;
               height: 100%;
+              border-radius: 60px 0 0 60px;
             }
           }
         </style>
