@@ -342,11 +342,11 @@
         </div>
         <div class="how-buy__option">
           <div class="how-buy__option-name">ежемесячный платеж</div>
-          <div class="how-buy__option-size">26 070 Р<span>больше на 12 073 Р</span></div>
+          <div class="how-buy__option-size">26 070 Р<span>больше на 7 212 Р</span></div>
         </div>
         <div class="how-buy__option">
           <div class="how-buy__option-name">переплата</div>
-          <div class="how-buy__option-size">6 831 653 Р<span>больше на 4 204 416 Р</span></div>
+          <div class="how-buy__option-size">6 831 653 Р<span>больше на 3 154 623 Р</span></div>
         </div>
       </div>
       <div class="how-buy__options how-buy__options--light wow animate__animated animate__flipInX">
@@ -357,11 +357,11 @@
         </div>
         <div class="how-buy__option">
           <div class="how-buy__option-name">ежемесячный платеж</div>
-          <div class="how-buy__option-size">13 997 Р***<span>меньше на 12 073 Р</span></div>
+          <div class="how-buy__option-size">18 858 Р***<span>меньше на 7 212 Р</span></div>
         </div>
         <div class="how-buy__option">
           <div class="how-buy__option-name">переплата</div>
-          <div class="how-buy__option-size">2 627 237 Р<span>меньше на 4 204 416 Р</span></div>
+          <div class="how-buy__option-size">3 677 030 Р<span>меньше на 3 154 623 Р</span></div>
         </div>
       </div>
     </div>
