@@ -182,7 +182,7 @@
     </div>
     <div class="about-zhk__price">
       <p class="wow animate__animated animate__fadeInRight"><span>от 3 111 850 Р</span> Минимальная цена</p>
-      <p class="wow animate__animated animate__fadeInRight"><span>от 18 858 Р</span> В ипотеку</p>
+      <p class="wow animate__animated animate__fadeInRight"><span>от 15 352 Р</span> В ипотеку</p>
     </div>
   </div>
 </section>
@@ -342,11 +342,11 @@
         </div>
         <div class="how-buy__option">
           <div class="how-buy__option-name">ежемесячный платеж</div>
-          <div class="how-buy__option-size">26 070 Р<span>больше на 7 212 Р</span></div>
+          <div class="how-buy__option-size">26 070 Р<span>больше на 10 718 Р</span></div>
         </div>
         <div class="how-buy__option">
           <div class="how-buy__option-name">переплата</div>
-          <div class="how-buy__option-size">6 831 653 Р<span>больше на 3 154 623 Р</span></div>
+          <div class="how-buy__option-size">6 831 653 Р<span>больше на 4 416 783 Р</span></div>
         </div>
       </div>
       <div class="how-buy__options how-buy__options--light wow animate__animated animate__flipInX">
@@ -357,11 +357,11 @@
         </div>
         <div class="how-buy__option">
           <div class="how-buy__option-name">ежемесячный платеж</div>
-          <div class="how-buy__option-size">18 858 Р***<span>меньше на 7 212 Р</span></div>
+          <div class="how-buy__option-size">15 352 Р***<span>меньше на 10 718 Р</span></div>
         </div>
         <div class="how-buy__option">
           <div class="how-buy__option-name">переплата</div>
-          <div class="how-buy__option-size">3 677 030 Р<span>меньше на 3 154 623 Р</span></div>
+          <div class="how-buy__option-size">2 414 870 Р<span>меньше на 4 416 783 Р</span></div>
         </div>
       </div>
     </div>
@@ -585,7 +585,7 @@
   <div class="page__wrap">
     <div class="note__text">
       <p>* Стоимость квартиры действует на момент публикации прайса на сайте. Подробнее <a href="https://21sol.ru/docs/">https://21sol.ru/docs/</a>
-        Цена за 1 комнатную квартиру расположенной на 3 этаже, площадью 36,61 кв. м. Ежемесячный платеж 18 858 рублей рассчитан из суммы однокомнатной квартиры стоимостью 3 111 850 рублей по ставке 5,7% годовых  рамках программы ПАО Сбербанк «Ипотека с государственной поддержкой для семей с детьми» на срок кредитование 30 лет с первоначальным взносом  466 778 рубля.
+        Цена за 1 комнатную квартиру расположенной на 3 этаже, площадью 36,61 кв. м. Ежемесячный платеж 15 352 рубля рассчитан из суммы однокомнатной квартиры стоимостью 3 111 850 рублей по ставке 5,7% годовых  рамках программы ПАО Сбербанк «Ипотека с государственной поддержкой для семей с детьми» на срок кредитование 30 лет с первоначальным взносом  466 778 рубля.
       </p>
 
 
