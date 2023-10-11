@@ -72,7 +72,7 @@
                     <div class="button_action"><a class="slider_button_action" href="/pozicii-v-prodazhe/akciya-1/">Подробнее</a></div>
                 </div>
             </div>
-            <div class="slide_bg" style="background-image: url(/images/banners/ipoteka-2023-12.jpg);"></div>
+            <div class="slide_bg" style="background-image: url(/images/banners/ipoteka-2023-07.jpg);"></div>
         </div>
         <div class="slide_item slide_item_05">
            <div class="container">
