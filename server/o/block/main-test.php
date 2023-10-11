@@ -64,16 +64,7 @@
           }
         </style>
       </div>
-      <div class="slide_item">
-            <div class="container">
-                <div class="slide_item_block">
-                    <div class="small_title_action">АКЦИЯ В ИЮЛЕ</div>
-                    <div class="big_title_action big_title_action_many" style="margin-top: 30px;" ><span style="color: red;">Ипотека 5,4% на<br>весь срок платежа!</span></div>
-                    <div class="button_action"><a class="slider_button_action" href="/pozicii-v-prodazhe/akciya-1/">Подробнее</a></div>
-                </div>
-            </div>
-            <div class="slide_bg" style="background-image: url(/images/banners/ipoteka-2023-07.jpg);"></div>
-        </div>
+
         <div class="slide_item slide_item_05">
            <div class="container">
                <div class="slide_item_block">

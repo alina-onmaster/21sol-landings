@@ -180,10 +180,6 @@
       <p>Мало кто соглашается всю жизнь прожить со старшим поколением под одной крышей.</p>
       <p>Кто-то хочет создать семью, кто-то помочь своим уже повзрослевшим детям, а кто-то хочет просто тишины по вечерам и покоя.</p>
     </div>
-    <div class="about-zhk__price">
-      <p class="wow animate__animated animate__fadeInRight"><span>от 3 785 220 Р</span> Минимальная цена</p>
-      <p class="wow animate__animated animate__fadeInRight"><span>от 18 133 Р</span> В ипотеку</p>
-    </div>
   </div>
 </section>
 <section class="about-project page__section">
@@ -319,52 +315,6 @@
       </div>
     </div>
 
-  </div>
-</section>
-<section class="how-buy page__section">
-  <div class="page__wrap">
-    <h2 class="page__subtitle wow animate__animated animate__fadeInLeft">Способ покупки</h2>
-    <div class="how-buy__grid">
-      <div class="how-buy__text wow animate__animated animate__fadeInLeft">
-        <p>Что, если мы скажем вам, что оформлять ипотеку на новостройку может быть совсем не страшно, а выплачивать ее — легко и комфортно?</p>
-      </div>
-      <a class="btn btn--yellow how-buy__link-request wow animate__pulse animate__animated" style="visibility: visible; animation-name: pulse;" data-b24-crm-button-widget="callback" class="slider_button_callback" href="javascript:void(0)" onclick="b24Call();">
-        <svg class="icon" width="16px" height="16px">
-          <use class="icon__symbol" xlink:href="#icon-send"></use>
-        </svg>
-        оставить заявку
-      </a>
-      <div class="how-buy__options how-buy__options--blue wow animate__animated animate__flipInX">
-        <h3>Вторичное<br>жилье</h3>
-        <div class="how-buy__option">
-          <div class="how-buy__option-name">процентная ставка</div>
-          <div class="how-buy__option-size">10,9%</div>
-        </div>
-        <div class="how-buy__option">
-          <div class="how-buy__option-name">ежемесячный платеж</div>
-          <div class="how-buy__option-size">29 737 Р<span>больше на 13 087 Р</span></div>
-        </div>
-        <div class="how-buy__option">
-          <div class="how-buy__option-name">переплата</div>
-          <div class="how-buy__option-size">10 705 320 Р<span>больше на 8 199 642 Р</span></div>
-        </div>
-      </div>
-      <div class="how-buy__options how-buy__options--light wow animate__animated animate__flipInX">
-        <h3>Новостройка<br>семейная ипотека</h3>
-        <div class="how-buy__option">
-          <div class="how-buy__option-name">процентная ставка</div>
-          <div class="how-buy__option-size">5,4%**</div>
-        </div>
-        <div class="how-buy__option">
-          <div class="how-buy__option-name">ежемесячный платеж</div>
-          <div class="how-buy__option-size">16 650 Р***<span>меньше на 13 087 Р</span></div>
-        </div>
-        <div class="how-buy__option">
-          <div class="how-buy__option-name">переплата</div>
-          <div class="how-buy__option-size">2 505 660 Р<span>меньше на 8 199 642 Р</span></div>
-        </div>
-      </div>
-    </div>
   </div>
 </section>
 <section class="construction-progress page__section">
