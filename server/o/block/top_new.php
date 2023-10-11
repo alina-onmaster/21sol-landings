@@ -1,9 +1,11 @@
 <div class="navigation_menu">
    <div class="container">
      <div class="navigation_items_block">
-		<a href="/" class="navigation_logo">
+		<div class="navigation_logo">
+      <a href="/" class="header-logo header-logo--sol"></a>
+      <a href="https://udacha-group.ru/" target="_blank" rel="noopener noreferrer nofollow" class="header-logo header-logo--udacha"></a>
 		  	<img src="/images/main_new/header_logo.png" alt="">
-		</a>
+		</div>
 	  <div class="navigation_list_item">
 	      <?php /*
 		  <ul class="nav_item_list">

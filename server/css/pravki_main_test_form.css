@@ -1721,9 +1721,26 @@
 }
 
 .navigation_logo {
+  position: relative;
   width: 16.9%;
   height: 40px;
   margin-right: 4%;
+}
+
+.header-logo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.header-logo--sol {
+  left: 0;
+  width: 52%;
+}
+
+.header-logo--udacha {
+  right: 0;
+  width: 36%;
 }
 
 .navigation_list_item {
