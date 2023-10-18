@@ -21,7 +21,7 @@
                   <path d="M0 0H28V28H0V0Z" fill="#23A4DD"/>
                 </g>
               </svg>
-              ОТКРЫТО БРОНИРОВНИЕ
+              ПРОДАЖА КВАРТИР
             </div>
             <div class="big_title_action big_title_action_many" style="margin-top: 30px;" ><span style="color: red;"><br>ПОЗИЦИЯ 4</span></div>
             <div class="button_action"><a class="slider_button_action" href="/pozicii-v-prodazhe/poziciya-4/">Подробнее</a></div>
@@ -69,7 +69,7 @@
            <div class="container">
                <div class="slide_item_block">
                   <div class="small_title_action">Строим будущее вместе</div>
-                  <div class="big_title_action big_title_action_many" ><span style="color: red;">«Удача»</span> надежный застройщик с<br>18-летним опытом успешной работы</div>
+                  <div class="big_title_action big_title_action_many" ><span style="color: red;">«Удача»</span> надежный застройщик с<br>19-летним опытом успешной работы</div>
                   <!--<div class="description_action">ГК "Удача" 17 лет успешной работы</div>-->
                   <div class="button_action"><a class="slider_button_action" href="https://21sol.ru/about/">Подробнее</a></div>
                </div>
@@ -97,17 +97,17 @@
 		  <div class="advantages_items">
 		     <div class="advantages_item">
 			    <div class="small_adv_title">Сдано</div>
-				<div class="big_adv_title">189 472</div>
+				<div class="big_adv_title">240 622</div>
 				<div class="small_adv_title_sec">кв. м жилья</div>
 			 </div>
 			<div class="advantages_item">
 			    <div class="small_adv_title">Построено</div>
-				<div class="big_adv_title">20</div>
+				<div class="big_adv_title">25</div>
 				<div class="small_adv_title_sec">домов</div>
 			 </div>
 			 <div class="advantages_item">
 			    <div class="small_adv_title">Проживает более</div>
-				<div class="big_adv_title">8000</div>
+				<div class="big_adv_title">20 000</div>
 				<div class="small_adv_title_sec">человек</div>
 			 </div>
 		  </div>
@@ -307,7 +307,7 @@
 	<div class="block_builder">
 	<div class="container">
 	    <div class="small_builder_title">Основаны в&nbsp;2004 году</div>
-		<h2 class="title_h2">За 18 лет ГК «Удача» построила 41&nbsp;дом, это более 8900 квартир</h2>
+		<h2 class="title_h2">За 19 лет ГК «Удача» построила 39 домов, это более 8900 квартир.</h2>
 		<div class="builder_block_items">
 		    <div class="builder_block_item">
 			   <div class="builder_block_title">4-полосная автодорога</div>
@@ -331,7 +331,7 @@
 			</div>
 			<div class="builder_block_item">
 			   <div class="builder_block_title">Состоявшийся район</div>
-			   <div class="builder_block_descr">Проживает более 8000&nbsp;человек</div>
+			   <div class="builder_block_descr">Проживает более 30 000 человек</div>
 			</div>
 			<div class="builder_block_item">
 			   <div class="builder_block_title">Трехслойные стеновые панели</div>
