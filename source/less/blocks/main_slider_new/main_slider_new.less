@@ -1,0 +1,139 @@
+.news_action_items {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+
+  @media (min-width: 768px) {
+    gap: 40px;
+  }
+
+  @media (min-width: 1200px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.news_action_item {
+  width: 100%;
+}
+
+.news_action_item_c {
+  @media (min-width: 1024px) and (max-width: 1199px) {
+    display: grid;
+    grid-template-columns: 300px auto;
+    column-gap: 35px;
+    grid-template-areas: "img cat" "img title";
+
+    & .news_action_item_img {
+      grid-area: img;
+    }
+
+    & .news_action_item_title {
+      grid-area: title;
+      padding: 0;
+    }
+
+    & .news_action_item_cat {
+      grid-area: cat;
+      padding: 0;
+    }
+  }
+}
+
+main {
+  position: relative;
+}
+
+.offices__items.d-flex {
+  flex-wrap: wrap;
+  gap: 20px;
+
+  @media (min-width: 768px) {
+    gap: 40px;
+  }
+
+  & .offices__item {
+    width: 100%;
+    margin-right: 0;
+    max-width: unset;
+    min-width: unset;
+
+    @media (min-width: 768px) {
+      width: 40%;
+      flex-grow: 1;
+    }
+
+    @media (min-width: 1024px) {
+      width: 435px;
+      flex-grow: unset;
+    }
+  }
+
+}
+
+.offices__phone {
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+
+.offices__wrapper:after {
+  @media (max-width: 768px) {
+    position: relative;
+    border-radius: 0;
+    bottom: 0;
+    width: 100vw;
+  }
+}
+
+.offices__form {
+  & .form__input-phone {
+    max-width: unset;
+  }
+
+  & .form__actions .button {
+    padding: 23px;
+  }
+
+  @media (min-width: 1355px) {
+    & .form {
+      width: 39vw;
+    }
+
+  }
+  @media (max-width: 768px) {
+    padding-right: 0;
+    & .form {
+      width: 100%;
+    }
+
+    & .form__group.d-flex {
+      & .form__input {
+        width: 250px;
+        flex-grow: 1;
+        max-width: unset;
+      }
+    }
+
+
+
+
+  }
+}
+
+.offices__wrapper:after {
+  @media (min-width: 769px) and (max-width: 1354px) {
+    border-radius: 30px 0 0 30px;
+    left: 50%;
+    transform: translateX(20px);
+  }
+}
+
+.offices__wrapper {
+
+  @media (max-width: 768px) {
+    padding-bottom: 0;
+  }
+}

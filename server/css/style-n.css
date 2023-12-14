@@ -9,6 +9,8 @@ body {
   padding-left: 5vw;
   padding-right: 5vw;
 }
+
+
 @media (min-width: 1440px) {
   .container {
     padding-left: 50px;

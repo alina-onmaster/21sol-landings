@@ -21,51 +21,15 @@
                   <path d="M0 0H28V28H0V0Z" fill="#23A4DD"/>
                 </g>
               </svg>
-              ПРОДАЖА КВАРТИР
+              Открыто предварительное бронирование
             </div>
-            <div class="big_title_action big_title_action_many" style="margin-top: 30px;" ><span style="color: red;"><br>ПОЗИЦИЯ 4</span></div>
-            <div class="button_action"><a class="slider_button_action" href="/pozicii-v-prodazhe/poziciya-4/">Подробнее</a></div>
+            <div class="big_title_action big_title_action_many" style="margin-top: 30px;" ><span style="color: red;"><br>ПОЗИЦИЯ 6</span></div>
+            <div class="button_action"><a class="slider_button_action" href="https://21sol.ru/pozicii-v-prodazhe/poziciya-6/">Подробнее</a></div>
           </div>
         </div>
-        <div class="slide_bg" style="background-image: url(/img/poz4/poz4-banner.jpg);"></div>
-        <style>
-          .slide_item--start-poz4 .slide_bg::before {
-            display: none;
-            content: "";
-            position: absolute;
-            top: 25px;
-            left: 25px;
-            right: 25px;
-            bottom: 25px;
-            width: auto;
-            height: 165px;
-            background: url(/img/poz4/poz4-banner-adv.png) no-repeat center top;
-            background-size: contain;
-          }
-          @media (min-width: 661px) {
-            .slide_item--start-poz4 .slide_bg::before {
-              display: block;
-              top: 0;
-              left: 0;
-              width: 37vw;
-              height: 85%;
-            }
-          }
-          @media (min-width: 1025px) {
-            .slide_item--start-poz4 .slide_bg::before {
-              background: url(/img/poz4/poz4-banner-adv.jpg) no-repeat center top;
-              top: 0px;
-              left: -2px;
-              width: 45vw;
-              max-width: 379px;
-              height: 100%;
-              border-radius: 60px 0 0 60px;
-            }
-          }
-        </style>
+        <div class="slide_bg" style="background-image: url(/img/poz6/banner_poz6.jpg);"></div>
       </div>
-
-        <div class="slide_item slide_item_05">
+      <div class="slide_item slide_item_05">
            <div class="container">
                <div class="slide_item_block">
                   <div class="small_title_action">Строим будущее вместе</div>
@@ -77,18 +41,18 @@
            <div class="slide_bg" style="background-image: url(/images/main_new/banner-desc-11-03-22.jpg);"></div>
         </div>
     </div>
-    <div class="container">
-	<div class="main_slider_nav_block">
-    <div class="main_slider_nav_items">
-	<div class="main_slider_nav">
+    <div class="container container--main-slider-nav">
+      <div class="main_slider_nav_block">
+        <div class="main_slider_nav_items">
+          <div class="main_slider_nav">
             <div class="main_slider_prev" id="main_slider_prev"></div>
-			<div id="counter"></div>
+            <div id="counter"></div>
             <div class="main_slider_next" id="main_slider_next"></div>
+          </div>
+          <div class="button_action_call"><a data-b24-crm-button-widget="callback" class="slider_button_callback" href="javascript:void(0)" onclick="b24Call();"><span>Заказать звонок</span></a></div>
+        </div>
+      </div>
     </div>
-	<div class="button_action_call"><a data-b24-crm-button-widget="callback" class="slider_button_callback" href="javascript:void(0)" onclick="b24Call();"><span>Заказать звонок</span></a></div>
-	</div>
-	</div>
-	</div>
 </div>
 <div class="advantages_block">
     <div class="container container_wide">

@@ -3727,7 +3727,8 @@ a.newsma:hover {
     box-shadow: 0px 15px 20px rgba(68, 16, 3, 0.1);
     top: 220px;
     width: 380px;
-    position: fixed;
+    position: sticky;
+    position: -webkit-sticky;
     padding: 30px 30px 50px 30px;
     border: 1px solid #eee;
     border-radius: 5px;

@@ -28,6 +28,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
     <link rel="icon"       href="/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/pravki_main_test_form.css">
     <link rel="preload"    href="/css/update-2022/app.min.css?v=20220518.2" as="style" />
     <link rel="stylesheet" href="/css/update-2022/app.min.css?v=20220518.2" />
     <link rel="stylesheet" href="/css/update-2022/cust.css" />
@@ -93,8 +94,7 @@
       })(window,document,'https://cdn.bitrix24.ru/b4347333/crm/site_button/loader_2_k0pxey.js');
     </script>
 
-    <div class="cloud cloud-1"><img src="/images/update-2022/clouds/cloud-1.png" alt=""></div>
-    <div class="cloud cloud-2"><img src="/images/update-2022/clouds/cloud-2.png" alt=""></div>
+
 
     <header class="header">
       <div class="container">

@@ -9,7 +9,7 @@ if($PAGE['id'] == 1 || $PAGE['id'] == 23387 || $PAGE['id'] == 23467){
 }
 
 if($PAGE['parent_id'] == 22442 || $PAGE['parent_id'] == 22697 || $PAGE['id'] == 22411){
-//	$PAGE['title'] = 'Ход строительства - '.$PAGE['title'];
+//	$PAGE['title'] = 'Г•Г®Г¤ Г±ГІГ°Г®ГЁГІГҐГ«ГјГ±ГІГўГ  - '.$PAGE['title'];
 	$PAGE['title'] = str_replace(" ", "&nbsp;", $PAGE['title']);
 }
 if (strpos($PAGE['title'], ' ') !== false) {
@@ -18,12 +18,12 @@ if (strpos($PAGE['title'], ' ') !== false) {
   $t1 = $PAGE['title'];
 }
 
-if($PAGE['id'] != 1 && $PAGE['parent_id'] != 0) echo "<div class='navigation'><a href='/'>главная</a> <span style='font-size:8px'>/</span> ".strtolower(navigation_line())."</div>";
+if($PAGE['id'] != 1 && $PAGE['parent_id'] != 0) echo "<div class='navigation'><a href='/'>ГЈГ«Г ГўГ­Г Гї</a> <span style='font-size:8px'>/</span> ".strtolower(navigation_line())."</div>";
 if($PAGE['s_title'] == 1) echo "<h1 class='h2page anim'><span>{$t1}</span> {$t2}</h1>";
 
 if($PAGE['parent_id'] == 22697 && !empty($PAGE['pics']) && $PAGE['id'] != 23405 && $PAGE['id'] != 23505){
 	if ($PAGE['id'] == 23405) {
-		echo '<p class="prod_desc">9-ти этажный дом с вентилируемым фасадом и автономным отоплением по ул. Асламаса, рядом с ГП "Лента"</p>';
+		echo '<p class="prod_desc">9-ГІГЁ ГЅГІГ Г¦Г­Г»Г© Г¤Г®Г¬ Г± ГўГҐГ­ГІГЁГ«ГЁГ°ГіГҐГ¬Г»Г¬ ГґГ Г±Г Г¤Г®Г¬ ГЁ Г ГўГІГ®Г­Г®Г¬Г­Г»Г¬ Г®ГІГ®ГЇГ«ГҐГ­ГЁГҐГ¬ ГЇГ® ГіГ«. ГЂГ±Г«Г Г¬Г Г±Г , Г°ГїГ¤Г®Г¬ Г± ГѓГЏ "Г‹ГҐГ­ГІГ "</p>';
 	}
 	if ($PAGE['id'] == 23440) {
 	echo "<div class='prod prod__action' style='margin-bottom:15px'>\n";
