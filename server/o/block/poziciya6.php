@@ -29,27 +29,27 @@
 <main class="poz4">
   <div class="first-screen">
     <div class="page__wrap">
-      <section class="main-slider main-slider--poz4 swiper">
+      <section class="main-slider main-slider--poz6 swiper">
     <ul class="main-slider__list swiper-wrapper">
       <li class="main-slider__item swiper-slide">
         <div class="main-slider__item-img-wrap">
           <picture>
             <source type="image/webp" media="(min-width: 1024px)" srcset="
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad1-2000.webp 1x,
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad1-2000@2x.webp 2x,
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad1-2000@3x.webp 3x">
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad1-2000.webp 1x,
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad1-2000@2x.webp 2x,
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad1-2000@3x.webp 3x">
             <source type="image/webp" srcset="
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad1-1024.webp 1x,
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad1-1024@2x.webp 2x,
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad1-1024@3x.webp 3x">
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad1-1024.webp 1x,
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad1-1024@2x.webp 2x,
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad1-1024@3x.webp 3x">
             <source media="(min-width: 1024px)" srcset="
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad1-2000.jpg 1x,
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad1-2000@2x.jpg 2x,
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad1-2000@3x.jpg 3x">
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad1-2000.jpg 1x,
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad1-2000@2x.jpg 2x,
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad1-2000@3x.jpg 3x">
             <img src="
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad1-1024.jpg 1x" srcset="
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad1-1024@2x.jpg 2x,
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad1-1024@3x.jpg 3x" alt="Фасад дома позиция 4">
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad1-1024.jpg 1x" srcset="
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad1-1024@2x.jpg 2x,
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad1-1024@3x.jpg 3x" alt="Фасад дома позиция 6">
           </picture>
         </div>
       </li>
@@ -57,21 +57,21 @@
         <div class="main-slider__item-img-wrap">
           <picture>
             <source type="image/webp" media="(min-width: 1024px)" srcset="
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad2-2000.webp 1x,
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad2-2000@2x.webp 2x,
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad2-2000@3x.webp 3x">
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad2-2000.webp 1x,
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad2-2000@2x.webp 2x,
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad2-2000@3x.webp 3x">
             <source type="image/webp" srcset="
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad2-1024.webp 1x,
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad2-1024@2x.webp 2x,
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad2-1024@3x.webp 3x">
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad2-1024.webp 1x,
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad2-1024@2x.webp 2x,
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad2-1024@3x.webp 3x">
             <source media="(min-width: 1024px)" srcset="
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad2-2000.jpg 1x,
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad2-2000@2x.jpg 2x,
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad2-2000@3x.jpg 3x">
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad2-2000.jpg 1x,
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad2-2000@2x.jpg 2x,
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad2-2000@3x.jpg 3x">
             <img src="
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad2-1024.jpg 1x" srcset="
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad2-1024@2x.jpg 2x,
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad2-1024@3x.jpg 3x" alt="Фасад дома позиция 4">
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad2-1024.jpg 1x" srcset="
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad2-1024@2x.jpg 2x,
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad2-1024@3x.jpg 3x" alt="Фасад дома позиция 6">
           </picture>
         </div>
       </li>
@@ -79,21 +79,21 @@
         <div class="main-slider__item-img-wrap">
           <picture>
             <source type="image/webp" media="(min-width: 1024px)" srcset="
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad3-2000.webp 1x,
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad3-2000@2x.webp 2x,
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad3-2000@3x.webp 3x">
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad3-2000.webp 1x,
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad3-2000@2x.webp 2x,
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad3-2000@3x.webp 3x">
             <source type="image/webp" srcset="
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad3-1024.webp 1x,
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad3-1024@2x.webp 2x,
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad3-1024@3x.webp 3x">
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad3-1024.webp 1x,
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad3-1024@2x.webp 2x,
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad3-1024@3x.webp 3x">
             <source media="(min-width: 1024px)" srcset="
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad3-2000.jpg 1x,
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad3-2000@2x.jpg 2x,
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad3-2000@3x.jpg 3x">
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad3-2000.jpg 1x,
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad3-2000@2x.jpg 2x,
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad3-2000@3x.jpg 3x">
             <img src="
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad3-1024.jpg 1x" srcset="
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad3-1024@2x.jpg 2x,
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad3-1024@3x.jpg 3x" alt="Фасад дома позиция 4">
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad3-1024.jpg 1x" srcset="
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad3-1024@2x.jpg 2x,
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad3-1024@3x.jpg 3x" alt="Фасад дома позиция 6">
           </picture>
         </div>
       </li>
@@ -101,21 +101,43 @@
         <div class="main-slider__item-img-wrap">
           <picture>
             <source type="image/webp" media="(min-width: 1024px)" srcset="
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad4-2000.webp 1x,
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad4-2000@2x.webp 2x,
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad4-2000@3x.webp 3x">
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad4-2000.webp 1x,
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad4-2000@2x.webp 2x,
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad4-2000@3x.webp 3x">
             <source type="image/webp" srcset="
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad4-1024.webp 1x,
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad4-1024@2x.webp 2x,
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad4-1024@3x.webp 3x">
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad4-1024.webp 1x,
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad4-1024@2x.webp 2x,
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad4-1024@3x.webp 3x">
             <source media="(min-width: 1024px)" srcset="
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad4-2000.jpg 1x,
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad4-2000@2x.jpg 2x,
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad4-2000@3x.jpg 3x">
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad4-2000.jpg 1x,
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad4-2000@2x.jpg 2x,
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad4-2000@3x.jpg 3x">
             <img src="
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad4-1024.jpg 1x" srcset="
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad4-1024@2x.jpg 2x,
-            https://21sol.ru/onmaster/img/poz4/poz4-fasad4-1024@3x.jpg 3x" alt="Фасад дома позиция 4">
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad4-1024.jpg 1x" srcset="
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad4-1024@2x.jpg 2x,
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad4-1024@3x.jpg 3x" alt="Фасад дома позиция 6">
+          </picture>
+        </div>
+      </li>
+      <li class="main-slider__item swiper-slide">
+        <div class="main-slider__item-img-wrap">
+          <picture>
+            <source type="image/webp" media="(min-width: 1024px)" srcset="
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad5-2000.webp 1x,
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad5-2000@2x.webp 2x,
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad5-2000@3x.webp 3x">
+            <source type="image/webp" srcset="
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad5-1024.webp 1x,
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad5-1024@2x.webp 2x,
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad5-1024@3x.webp 3x">
+            <source media="(min-width: 1024px)" srcset="
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad5-2000.jpg 1x,
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad5-2000@2x.jpg 2x,
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad5-2000@3x.jpg 3x">
+            <img src="
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad5-1024.jpg 1x" srcset="
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad5-1024@2x.jpg 2x,
+            https://21sol.ru/onmaster/img/poz6/poz6-fasad5-1024@3x.jpg 3x" alt="Фасад дома позиция 6">
           </picture>
         </div>
       </li>
@@ -128,7 +150,7 @@
       <li>Позиция 6</li>
     </ul>
   </div>
-  <h1 class="visually-hidden">Старт продаж дома позиции 6 микрорайон Солнечный Комфорт</h1>
+  <h1 class="visually-hidden">Открыто предварительное бронирование позиции 6 микрорайон Солнечный Комфорт</h1>
     </div>
   
 </div>
@@ -176,45 +198,37 @@
       </svg>
     </div>
     <div class="about-zhk__text wow animate__animated animate__fadeInUp">
-      <h2 class="page__subtitle">Ваша квартира здесь!</h2>
-      <p>Мало кто соглашается всю жизнь прожить со старшим поколением под одной крышей.</p>
-      <p>Кто-то хочет создать семью, кто-то помочь своим уже повзрослевшим детям, а кто-то хочет просто тишины по вечерам и покоя.</p>
+      <h2 class="page__subtitle">Ваша квартира здесь!<br><br>
+        Живи здесь! Живи с комфортом!
+      </h2>
     </div>
   </div>
 </section>
-<section class="about-project page__section">
+
+<section class="area-advantages page__section">
   <div class="page__wrap">
-    <h2 class="page__subtitle wow animate__animated animate__fadeInLeft">О проекте</h2>
-    <div class="about-project__text wow animate__animated animate__fadeInRight">
-      <p><span>Солнечный Комфорт</span> — жилой район в Чебоксарах, расположенный в <i>восточной части Новоюжного района по Солнечному бульвару.</i></p>
-      <p>Это комфортные панельные дома высотой 9 этажей, с вентилируемым фасадом из керамогранита.</p>
-      <p>В проекте жилого микрорайона — школа на 1200 мест, два детских сада на 480 мест, физкультурно-оздоровительный комплекс, торговые центры, места активного отдыха детей и взрослых, многоуровневый паркинг.</p>
-      <p>Это — место для амбициозных и активных молодых семей, а также тех, кто отдает предпочтение размеренной жизни вдали от городского шума.</p>
-    </div>
-    <div class="about-project__img-wrap wow animate__animated animate__flipInX">
-      <picture>
-        <source type="image/webp" media="(min-width: 1024px)" srcset="
-            https://21sol.ru/onmaster/img/poz4/panorama-2000.webp 1x,
-            https://21sol.ru/onmaster/img/poz4/panorama-2000@2x.webp 2x,
-            https://21sol.ru/onmaster/img/poz4/panorama-2000@3x.webp 3x">
-        <source type="image/webp" srcset="
-            https://21sol.ru/onmaster/img/poz4/panorama-1024.webp 1x,
-            https://21sol.ru/onmaster/img/poz4/panorama-1024@2x.webp 2x,
-            https://21sol.ru/onmaster/img/poz4/panorama-1024@3x.webp 3x">
-        <source media="(min-width: 1024px)" srcset="
-            https://21sol.ru/onmaster/img/poz4/panorama-2000.jpg 1x,
-            https://21sol.ru/onmaster/img/poz4/panorama-2000@2x.jpg 2x,
-            https://21sol.ru/onmaster/img/poz4/panorama-2000@3x.jpg 3x">
-        <img src="
-            https://21sol.ru/onmaster/img/poz4/panorama-1024.jpg 1x" srcset="
-            https://21sol.ru/onmaster/img/poz4/panorama-1024@2x.jpg 2x,
-            https://21sol.ru/onmaster/img/poz4/panorama-1024@3x.jpg 3x" alt="Фасад дома позиция 4">
-      </picture>
-    </div>
-
-
+      <h2 class="visually-hidden">Преимущества района</h2>
+    <ul class="area-advantages__list">
+      <li class="area-advantages__item area-advantages__item--1 wow animate__animated animate__backInUp">Чистый район в природной зоне</li>
+      <li class="area-advantages__item area-advantages__item--6 wow animate__animated animate__backInUp">Автономное отопление: низкие платежи по ЖКХ</li>
+      <li class="area-advantages__item area-advantages__item--4 wow animate__animated animate__backInUp">В каждом подъезде места для хранения велосипедов и колясок</li>
+      <li class="area-advantages__item area-advantages__item--10 wow animate__animated animate__backInUp">Действующая автомобильная дорога по бульвару Солнечный, с остановками общественного транспорта троллейбус №14, автобус № 35)</li>
+      <li class="area-advantages__item area-advantages__item--3 wow animate__animated animate__backInUp">Различные планировочные решения. Варианты с просторными кухнями</li>
+      <li class="area-advantages__item area-advantages__item--11 wow animate__animated animate__backInUp">Предусмотрены фасадные декоративные корзины для установки кондиционера</li>
+      <li class="area-advantages__item area-advantages__item--2 wow animate__animated animate__backInUp">Современные детские площадки и многофункциональные спортивные комплексы</li>
+      <li class="area-advantages__item area-advantages__item--9 wow animate__animated animate__backInUp">Витражное остекление балконов</li>
+      <li class="area-advantages__item wow animate__animated animate__backInUp"></li>
+      
+    </ul>
+    <a class="btn btn--yellow advantages__link-request wow animate__animated animate__pulse" data-b24-crm-button-widget="callback" class="slider_button_callback" href="javascript:void(0)" onclick="b24Call();">
+      <svg class="icon" width="16px" height="16px">
+        <use class="icon__symbol" xlink:href="#icon-send"></use>
+      </svg>
+      оставить заявку
+    </a>
   </div>
 </section>
+
 <section class="plans page__section">
   <div class="page__wrap">
     <h2 class="page__subtitle wow animate__animated animate__fadeInLeft">Планировки квартир</h2>
@@ -222,16 +236,12 @@
       <div class="plans__wrap wow animate__animated animate__flipInY">
         <div class="tabs">
           <input type="radio" name="tab-btn" id="tab-btn-1" value="" checked=""><label for="tab-btn-1">Секция А</label>
-          <input type="radio" name="tab-btn" id="tab-btn-2" value=""><label for="tab-btn-2">Секция Б</label>
-          <input type="radio" name="tab-btn" id="tab-btn-3" value=""><label for="tab-btn-3">Секция В</label>
-          <input type="radio" name="tab-btn" id="tab-btn-4" value=""><label for="tab-btn-4">Секция Г</label>
+          <input type="radio" name="tab-btn" id="tab-btn-2" value=""><label for="tab-btn-2">Секция Б,В,Г</label>
           <input type="radio" name="tab-btn" id="tab-btn-5" value=""><label for="tab-btn-5">Секция Д</label>
-          <input type="radio" name="tab-btn" id="tab-btn-6" value=""><label for="tab-btn-6">Секция Е</label>
-          <input type="radio" name="tab-btn" id="tab-btn-7" value=""><label for="tab-btn-7">Секция Ж</label>
           <div class="tabs__content" id="content-1">
             <div class="plans__img-wrap">
-              <a class="plans__img-link" href="https://21sol.ru/onmaster/img/poz4/poz4-section-a-bg.png" data-fancybox="fotorajon">
-                <img class="plans__img" src="https://21sol.ru/onmaster/img/poz4/poz4-section-a-850@1x.png" alt="">
+              <a class="plans__img-link" href="https://21sol.ru/onmaster/img/poz6/poz6-section-a.jpg" data-fancybox="fotorajon">
+                <img class="plans__img" src="https://21sol.ru/onmaster/img/poz6/poz6-section-a-850@1x.jpg" alt="">
                 <svg class="icon" width="34px" height="34px">
                   <use class="icon__symbol" xlink:href="#icon-increase"></use>
                 </svg>
@@ -240,28 +250,8 @@
           </div>
           <div class="tabs__content" id="content-2">
             <div class="plans__img-wrap">
-              <a class="plans__img-link" href="https://21sol.ru/onmaster/img/poz4/poz4-section-b-bg.png" data-fancybox="fotorajon">
-                <img class="plans__img" src="https://21sol.ru/onmaster/img/poz4/poz4-section-b-850@1x.png" alt="">
-                <svg class="icon" width="34px" height="34px">
-                  <use class="icon__symbol" xlink:href="#icon-increase"></use>
-                </svg>
-              </a>
-            </div>
-          </div>
-          <div class="tabs__content" id="content-3">
-            <div class="plans__img-wrap">
-              <a class="plans__img-link" href="https://21sol.ru/onmaster/img/poz4/poz4-section-v-bg.png" data-fancybox="fotorajon">
-                <img class="plans__img" src="https://21sol.ru/onmaster/img/poz4/poz4-section-v-850@1x.png" alt="">
-                <svg class="icon" width="34px" height="34px">
-                  <use class="icon__symbol" xlink:href="#icon-increase"></use>
-                </svg>
-              </a>
-            </div>
-          </div>
-          <div class="tabs__content" id="content-4">
-            <div class="plans__img-wrap">
-              <a class="plans__img-link" href="https://21sol.ru/onmaster/img/poz4/poz4-section-g-bg.png" data-fancybox="fotorajon">
-                <img class="plans__img" src="https://21sol.ru/onmaster/img/poz4/poz4-section-g-850@1x.png" alt="">
+              <a class="plans__img-link" href="https://21sol.ru/onmaster/img/poz6/poz6-section-b-v-g.jpg" data-fancybox="fotorajon">
+                <img class="plans__img" src="https://21sol.ru/onmaster/img/poz6/poz6-section-b-v-g-850@1x.jpg" alt="">
                 <svg class="icon" width="34px" height="34px">
                   <use class="icon__symbol" xlink:href="#icon-increase"></use>
                 </svg>
@@ -270,28 +260,8 @@
           </div>
           <div class="tabs__content" id="content-5">
             <div class="plans__img-wrap">
-              <a class="plans__img-link" href="https://21sol.ru/onmaster/img/poz4/poz4-section-d-bg.png" data-fancybox="fotorajon">
-                <img class="plans__img" src="https://21sol.ru/onmaster/img/poz4/poz4-section-d-850@1x.png" alt="">
-                <svg class="icon" width="34px" height="34px">
-                  <use class="icon__symbol" xlink:href="#icon-increase"></use>
-                </svg>
-              </a>
-            </div>
-          </div>
-          <div class="tabs__content" id="content-6">
-            <div class="plans__img-wrap">
-              <a class="plans__img-link" href="https://21sol.ru/onmaster/img/poz4/poz4-section-e-bg.png" data-fancybox="fotorajon">
-                <img class="plans__img" src="https://21sol.ru/onmaster/img/poz4/poz4-section-e-850@1x.png" alt="">
-                <svg class="icon" width="34px" height="34px">
-                  <use class="icon__symbol" xlink:href="#icon-increase"></use>
-                </svg>
-              </a>
-            </div>
-          </div>
-          <div class="tabs__content" id="content-7">
-            <div class="plans__img-wrap">
-              <a class="plans__img-link" href="https://21sol.ru/onmaster/img/poz4/poz4-section-zh-bg.png" data-fancybox="fotorajon">
-                <img class="plans__img" src="https://21sol.ru/onmaster/img/poz4/poz4-section-zh-850@1x.png" alt="">
+              <a class="plans__img-link" href="https://21sol.ru/onmaster/img/poz6/poz6-section-d.jpg" data-fancybox="fotorajon">
+                <img class="plans__img" src="https://21sol.ru/onmaster/img/poz6/poz6-section-d-850@1x.jpg" alt="">
                 <svg class="icon" width="34px" height="34px">
                   <use class="icon__symbol" xlink:href="#icon-increase"></use>
                 </svg>
@@ -302,7 +272,7 @@
       </div>
       <div class="plans__form-wrap wow animate__animated animate__fadeInRight">
         <form class="form">
-          <h2 class="form__title">Продажи уже открыты!</h2>
+          <h2 class="form__title">Открыто предварительное бронирование!</h2>
           <p class="form__text">Оставьте заявку, чтобы получить индивидуальную консультацию!</p>
           <script data-b24-form="inline/2/ak3ut7" data-skip-moving="true">
                     (function(w,d,u){
@@ -317,163 +287,9 @@
 
   </div>
 </section>
-<section class="construction-progress page__section">
-  <div class="page__wrap">
-    <h2 class="page__subtitle wow animate__animated animate__fadeInLeft">Ход строительства</h2>
-    <ul class="construction-progress__album-list">
-      <li class="wow animate__animated animate__flipInY">
-        <a href="https://21sol.ru/foto/">
-          <picture>
-            <source type="image/webp" srcset="
-            https://21sol.ru/onmaster/img/poz4/hod-stroitelstva202301-900.webp 1x,
-            https://21sol.ru/onmaster/img/poz4/hod-stroitelstva202301-900@2x.webp 2x,
-            https://21sol.ru/onmaster/img/poz4/hod-stroitelstva202301-900@3x.webp 3x">
-            <img src="
-            https://21sol.ru/onmaster/img/poz4/hod-stroitelstva202301-900.jpg 1x" srcset="
-            https://21sol.ru/onmaster/img/poz4/hod-stroitelstva202301-900@2x.jpg 2x,
-            https://21sol.ru/onmaster/img/poz4/hod-stroitelstva202301-900@3x.jpg 3x" alt="Посмотреть все">
-          </picture>
-          <div class="btn btn--yellow construction-progress__link-more" style="visibility: visible; animation-name: pulse;">
-            Посмотреть все
-            <svg class="icon" width="25px" height="25px">
-              <use class="icon__symbol" xlink:href="#icon-arrow-long-right"></use>
-            </svg>
-          </div>
 
-        </a>
-      </li>
-    </ul>
-  </div>
-</section>
-<section class="advantages page__section">
-  <h2 class="visually-hidden">Преимущества покупки квартиры</h2>
-  <ul class="advantages__list">
-    <li class="advantages__item advantage">
-      <div class="page__wrap">
-        <div class="advantage__content">
-          <h3 class="advantage__title wow animate__animated animate__fadeInLeft">Транспортная доступность</h3>
-          <div class="advantage__text wow animate__animated animate__fadeInUp">
-            <p>Доехать до района Солнечный Комфорт можно на автобусном маршруте №&nbsp;35, троллейбусном маршруте №&nbsp;14</p>
-          </div>
-        </div>
-        <picture>
-          <source type="image/webp" srcset="
-            https://21sol.ru/onmaster/img/poz4/transport-accessibility-900.webp 1x,
-            https://21sol.ru/onmaster/img/poz4/transport-accessibility-900@2x.webp 2x,
-            https://21sol.ru/onmaster/img/poz4/transport-accessibility-900@3x.webp 3x">
-          <img class="wow animate__animated animate__fadeInRight" src="
-            https://21sol.ru/onmaster/img/poz4/transport-accessibility-900.jpg 1x" srcset="
-            https://21sol.ru/onmaster/img/poz4/transport-accessibility-900@2x.jpg 2x,
-            https://21sol.ru/onmaster/img/poz4/transport-accessibility-900@3x.jpg 3x" alt="Автобус, едущий по маршруту">
-        </picture>
-      </div>
-    </li>
-    <li class="advantages__item advantage">
-      <div class="page__wrap">
-        <div class="advantage__content">
-          <h3 class="advantage__title wow animate__animated animate__fadeInRight">Окружение</h3>
-          <div class="advantage__text wow animate__animated animate__fadeInUp">
-            <p>Солнечный Комфорт — идеальное пространство для здоровой жизни. В 20 минутах ходьбы от жилых домов расположен шикарный лесной массив с дубами, символом Чувашии. Здесь можно любоваться деревьями в лучах заката, пригласить друзей на пикник или сыграть в волейбол на поляне.</p>
-            <p>В 5 минутах езды – гипермаркет Лента и другие крупные супермаркеты.</p>
-          </div>
-        </div>
-        <picture>
-          <source type="image/webp" srcset="
-            https://21sol.ru/onmaster/img/poz4/environment-900.webp 1x,
-            https://21sol.ru/onmaster/img/poz4/environment-900@2x.webp 2x,
-            https://21sol.ru/onmaster/img/poz4/environment-900@3x.webp 3x">
-          <img class="wow animate__animated animate__fadeInLeft" src="
-            https://21sol.ru/onmaster/img/poz4/environment-900.jpg 1x" srcset="
-            https://21sol.ru/onmaster/img/poz4/environment-900@2x.jpg 2x,
-            https://21sol.ru/onmaster/img/poz4/environment-900@3x.jpg 3x" alt="Природа">
-        </picture>
-      </div>
-    </li>
-    <li class="advantages__item advantage">
-      <div class="page__wrap">
-        <div class="advantage__content">
-          <h3 class="advantage__title wow animate__animated animate__fadeInLeft">Инфраструктура</h3>
-          <div class="advantage__text wow animate__animated animate__fadeInUp">
-            <p>Солнечный — развивающийся район. Современные офисы, торговые центры – все это площадки для перспективного бизнеса и инноваций.</p>
-            <p>Внутри района Солнечный Комфорт будет создана собственная инфраструктура для комфортной жизни: школа, детские сады, торговые центры, многоуровневый паркинг</p>
-          </div>
-        </div>
-        <picture>
-          <source type="image/webp" srcset="
-            https://21sol.ru/onmaster/img/poz4/infrastructure-900.webp 1x,
-            https://21sol.ru/onmaster/img/poz4/infrastructure-900@2x.webp 2x,
-            https://21sol.ru/onmaster/img/poz4/infrastructure-900@3x.webp 3x">
-          <img class="wow animate__animated animate__fadeInRight" src="
-            https://21sol.ru/onmaster/img/poz4/infrastructure-900.jpg 1x" srcset="
-            https://21sol.ru/onmaster/img/poz4/infrastructure-900@2x.jpg 2x,
-            https://21sol.ru/onmaster/img/poz4/infrastructure-900@3x.jpg 3x" alt="Женщина покупает продукты в магазине">
-        </picture>
-      </div>
-    </li>
-    <li class="advantages__item advantage">
-      <div class="page__wrap">
-        <div class="advantage__content">
-          <h3 class="advantage__title wow animate__animated animate__fadeInRight">Входные группы</h3>
-          <div class="advantage__text wow animate__animated animate__fadeInUp">
-            <p>Входные группы проекта – безбарьерная среда с доступами в холлы на уровне земли. В дом будет легко завести коляску или занести мебель. Отделка керамогранитом и металлическими панелями создает эффективный и лаконичный образ входной группы. </p>
-            <p>Все подъезды в Солнечном Комфорте – сквозные, чтобы вы могли выйти из дома во двор, и на улицу, а панорамное остекление наполняет помещение естественным светом.</p>
-          </div>
-        </div>
-        <picture>
-          <source type="image/webp" srcset="
-            https://21sol.ru/onmaster/img/poz4/entrance-groups-900.webp 1x,
-            https://21sol.ru/onmaster/img/poz4/entrance-groups-900@2x.webp 2x,
-            https://21sol.ru/onmaster/img/poz4/entrance-groups-900@3x.webp 3x">
-          <img class="wow animate__animated animate__fadeInLeft" src="
-            https://21sol.ru/onmaster/img/poz4/entrance-groups-900.jpg 1x" srcset="
-            https://21sol.ru/onmaster/img/poz4/entrance-groups-900@2x.jpg 2x,
-            https://21sol.ru/onmaster/img/poz4/entrance-groups-900@3x.jpg 3x" alt="Фасад жилого дома">
-        </picture>
-      </div>
-    </li>
-    <li class="advantages__item advantage">
-      <div class="page__wrap">
-        <div class="advantage__content">
-          <h3 class="advantage__title wow animate__animated animate__fadeInLeft">Современный дом</h3>
-          <div class="advantage__text wow animate__animated animate__fadeInUp">
-            <p>Современный панельный дом высотой до 9 этажей – надежный и комфортный. Жилой дом расположен так, чтобы защищать двор от ветра, при этом в каждой квартире будет много естественного света.</p>
-            <p>Стильные и долговечные фасады с облицовкой из керамогранитной плитки годами сохраняют первозданный вид и органично вписываются в окружающий ландшафт.</p>
-          </div>
-        </div>
-        <picture>
-          <source type="image/webp" srcset="
-            https://21sol.ru/onmaster/img/poz4/modern-house-900.webp 1x,
-            https://21sol.ru/onmaster/img/poz4/modern-house-900@2x.webp 2x,
-            https://21sol.ru/onmaster/img/poz4/modern-house-900@3x.webp 3x">
-          <img class="wow animate__animated animate__fadeInRight" src="
-            https://21sol.ru/onmaster/img/poz4/modern-house-900.jpg 1x" srcset="
-            https://21sol.ru/onmaster/img/poz4/modern-house-900@2x.jpg 2x,
-            https://21sol.ru/onmaster/img/poz4/modern-house-900@3x.jpg 3x" alt="Фасад жилого дома">
-        </picture>
-      </div>
-    </li>
-  </ul>
-</section>
-<section class="advantages-of-facades page__section">
-  <div class="page__wrap">
-    <h2 class="page__subtitle wow animate__animated animate__fadeInLeft">Преимущества вентилируемых фасадов</h2>
-    <ul class="advantages-of-facades__list">
-      <li class="advantages-of-facades__item advantages-of-facades__item--1 wow animate__animated animate__backInUp">
-        <h3>Наличие раздельных комнат, для отдыха и приёма гостей.</h3>
-        <p>В такой квартире легко уживутся четыре человека. Если в семье есть дети, в квартире найдётся место для отдыха и игр.</p>
-      </li>
-      <li class="advantages-of-facades__item advantages-of-facades__item--2 wow animate__animated animate__backInUp">
-        <h3>Возможность перепланировки.</h3>
-        <p>При желании владельцы могут расширить квартиру.</p>
-      </li>
-      <li class="advantages-of-facades__item advantages-of-facades__item--3 wow animate__animated animate__backInUp">
-        <h3>Продажа двухкомнатных квартир, которые всегда пользуются спросом</h3>
-        <p>Если нужно будет продать или разменять жильё, покупатели на двухкомнатную квартиру всегда найдутся. Это беспроигрышный вариант, для вложения средств.</p>
-      </li>
-    </ul>
 
-  </div>
-</section>
+
 <section class="contacts page__section">
   <div class="page__wrap">
     <h2 class="page__subtitle wow animate__animated animate__fadeInLeft">Офисы продаж</h2>
@@ -530,26 +346,7 @@
     </div>
   </div>
 
-</section>
-<section class="note page__section">
-  <div class="page__wrap">
-    <div class="note__text">
-      <p>* Стоимость квартиры действует на момент публикации прайса на сайте. Подробнее <a href="https://21sol.ru/docs/">https://21sol.ru/docs/</a>
-        Цена за 1 комнатную квартиру расположенной на 9 этаже, площадью 37,11 кв. м. Ежемесячный платеж 18 133 рублей рассчитан из суммы однокомнатной квартиры стоимостью 3 785 220 рублей по ставке 6% годовых рамках программы ПАО Сбербанк «Ипотека с государственной поддержкой для семей с детьми» на срок кредитование 30 лет с первоначальным взносом 20,1% от стоимости квартиры.
-      </p>
 
-
-      <p>** Ставка от 6% годовых доступна в рамках программы ПАО Сбербанк «Ипотека с государственной поддержкой для семей с детьми» на срок кредитования от 12 до 360 месяцев при приобретении строящегося жилья у юридического лица по ДДУ/ДУПТ или готовое жилье у застройщика – партнера Банка: ООО СЗ «Горизонт» при первоначальном взносе от 20,1% от стоимости кредитуемого жилого помещения, а также при проведении сделки с услугой «Сервис электронной регистрации». При отказе заемщика от услуги «Сервис электронной регистрации» процентная ставка по кредиту увеличивается на 0,3% годовых. Минимальная сумма кредита – 300 тыс. руб. Максимальный размер кредита до 12 000 000 руб - при покупке жилья в Москве и Московской области, Санкт-Петербурге и Ленинградской области; до 6 000 000 руб при покупке жилья в других регионах. Валюта – рубли РФ.
-Кредит предоставляется гражданам РФ, у которых либо в период с 1 января 2018 г. до 1 июля 2024 г. (включительно) родился ребенок, гражданин РФ; либо имеется ребенок, гражданин РФ, рожденный не позднее 31.12.2023 г., которому установлена категория «ребенок-инвалид»; либо имеются двое или более детей, граждане РФ, которые не достигли возраста 18 лет на дату заключения кредитного договора. Необходимо предоставление свидетельств о рождении и подтверждение гражданства всех детей. Дополнительные расходы: страхование и оценка объекта недвижимости, оформляемого в залог (тарифы зависят от индивидуальных особенностей заемщика), нотариальное заверение документов, направление документов на гос. регистрацию ДДУ в электронном виде. Услуга «Сервис электронной регистрации» предоставляется ООО «Домклик» (ОГРН 1157746652150, адрес: 121170, г. Москва, Кутузовский проспект, д. 32, к. 1, www.domclick.ru, услуга является платной.
-Обеспечение по кредиту – залог кредитуемого объекта недвижимости. Итоговая сумма кредита определяется индивидуально, на основании оценки платежеспособности и стоимости обеспечения заемщика. Банк вправе отказать в выдаче кредита без объяснения причин. Изменение условий – Банком в одностороннем порядке. Предложение действительно в период с 07.04.2022 по 01.07.2024 г. вкл. Подробнее об условиях кредитования, необходимых документах и ограничениях на www.sberbank.ru. Реклама. ПАО Сбербанк. Генеральная лицензия Банка России на осуществление банковских операций № 1481 от 11.08.2015.
-</p>
-      <p>*** Расчет сделан на основе однокомнатной комнатной квартиры в позиции №4 расположенной на 9 этаже, площадью 37,11 кв.м. стоимостью 3 785 220 руб. Цена актуальна на 20.09.2023 г.</p>
-      <p>Обращаем ваше внимание на то, что данный Интернет-сайт носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437 Гражданского кодекса Российской Федерации.
-        <br>ООО ГК «Удача» ведет деятельность на территории Российской Федерации в соответствии с законодательством Российской Федерации. Предлагаемые товары/работы/услуги доступны к получению на территории Российской Федерации. Мониторинг потребительского поведения субъектов, находящихся за пределами Российской Федерации, не ведется.
-      </p>
-    </div>
-  </div>
-</section>
 
 
 
