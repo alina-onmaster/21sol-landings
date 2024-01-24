@@ -7,7 +7,7 @@
                     <div class="office_item_small_title">на ост.&nbsp;Зодчего П.&nbsp;Егорова</div>
                     <div class="office_item_big_title">Солнечный бульвар, д.&nbsp;12, корп.&nbsp;1</div>
                 </div>
-                <div class="office_item_work_time"><strong>График работы</strong><br>Пн—Пт с&nbsp;9:00&nbsp;до&nbsp;17:00<br> Сб&nbsp;—&nbsp;с&nbsp;9:00&nbsp;до&nbsp;15:00<br> Без обеда<br>Воскресенье - выходной</div>
+                <div class="office_item_work_time"><strong>График работы</strong><br>Пн—Пт с&nbsp;9:00&nbsp;до&nbsp;17:00<br>Без обеда<br> Сб, Вс&nbsp;—&nbsp;выходной</div>
             </div>
             <div class="office_item_img"><img src="/images/main_new/1of.JPG" alt=""></div>
             <div class="office_item_button">
