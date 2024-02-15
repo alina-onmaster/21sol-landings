@@ -2,9 +2,24 @@
    <div class="container">
      <div class="navigation_items_block">
 		<div class="navigation_logo">
-      <a href="/" class="header-logo header-logo--sol"></a>
-      <a href="https://udacha-group.ru/" target="_blank" rel="noopener noreferrer nofollow" class="header-logo header-logo--udacha"></a>
+      		<a href="/" class="header-logo header-logo--sol"></a>
+      		<a href="https://udacha-group.ru/" target="_blank" rel="noopener noreferrer nofollow" class="header-logo header-logo--udacha"></a>
 		  	<img src="/images/main_new/header_logo.png" alt="">
+			  <div class="cheb-jubilee">
+				<a>
+					<picture>
+						<source type="image/webp" srcset="
+							/img/cheb-jubilee/cheb-jubilee-logo-175@1x.webp 1x,
+							/img/cheb-jubilee/cheb-jubilee-logo-175@2x.webp 2x,
+							/img/cheb-jubilee/cheb-jubilee-logo-175@3x.webp 3x">
+						<source type="image/jpeg" srcset="
+							/img/cheb-jubilee/cheb-jubilee-logo-175@1x.png 1x,
+							/img/cheb-jubilee/cheb-jubilee-logo-175@2x.png 2x,
+							/img/cheb-jubilee/cheb-jubilee-logo-175@3x.png 3x">
+						<img src="/img/cheb-jubilee/cheb-jubilee-logo.png" alt="Логотип Чебоксарам 555 лет">
+					</picture>
+				</a>
+			</div>
 		</div>
 	  <div class="navigation_list_item">
 	      <?php /*
