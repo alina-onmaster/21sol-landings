@@ -12,6 +12,7 @@ gulp-config.json
 gulp-config-dev.json
 gulp-config-dev1.json
 gulp-config-dev2.json
+package-lock.json
 node_modules/
 npm-debug.*
 prod/
